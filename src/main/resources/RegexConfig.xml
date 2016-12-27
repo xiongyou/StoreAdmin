@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<website>
+	<!-- 京东 -->
+	<JingDong>
+		<charset>gbk</charset>
+		<taskCount>3000</taskCount>
+		<singleInterval>5</singleInterval><!-- 单个产品内容获取的间隔时间 -->
+		<taskInterval>20</taskInterval><!-- 每批任务的间隔时间 -->
+		<!-- 产品基本信息 -->
+		<productBaseInfo>
+			<productActuallID>(?&lt;=product:[^:]{1,50}skuid:\s{1,5})(\d{1,40})(?=,)</productActuallID>
+			<productName>(?&lt;=&lt;div id=\"name\"&gt;[^&lt;]{0,30}&lt;h1&gt;)([^&lt;]*)(?=&lt;/h1&gt;)</productName>
+			<productDescription>(?&lt;=&lt;meta name="description" content=")(.*?)(?=" /&gt;)</productDescription>
+			<productShelveDate>(?&lt;=&lt;li title=.{22}上架时间：)([^&lt;]*?)(?=&lt;/li&gt;)</productShelveDate>
+			<productWeight>(?&lt;=&lt;li title=')([^&gt;]*)(?='&gt;商品毛重)</productWeight>
+			<productOrigin>(?&lt;=&lt;li title=')([^&gt;]*)(?='&gt;商品产地)</productOrigin>
+			<productCategory>(?&lt;=&lt;li title=')([^&gt;]*)(?='&gt;品种：)</productCategory>
+			<productCategory2>(?&lt;=&lt;li title=')([^&gt;]*)(?='&gt;类别：)</productCategory2>
+			<productBrand>(?&lt;=&lt;li title=')([^&gt;]*)(?='&gt;品牌：)</productBrand>
+		</productBaseInfo>
+		<!-- 产品监测信息 -->
+		<proudctMonitor>
+			<price url="http://p.3.cn/prices/get?callback=cnp&amp;type=1&amp;area=1_72_4137&amp;pdtk=&amp;pduid=1976454294&amp;pdpin=&amp;pdbp=0&amp;skuid=J_[productID]" >(?&lt;="p":")(.*?)(?=","m)</price>
+			<monthSalesCount></monthSalesCount>
+			<commentCount url="http://club.jd.com/clubservice.aspx?method=GetCommentsCount&amp;referenceIds=[productID]" star="0">(?&lt;=CommentCount":)(.*?)(?=,"Aver)</commentCount>
+			<goodCommentCount>(?&lt;=GoodCount":)(.*?)(?=,"GoodRate)</goodCommentCount>
+			<midCommentCount>(?&lt;=GeneralCount":)(.*?)(?=,"GeneralRate)</midCommentCount>
+			<badCommentCount>(?&lt;=PoorCount":)(.*?)(?=,"PoorRate)</badCommentCount>
+			<additionCommentCount></additionCommentCount>
+			<pictureCommentCount></pictureCommentCount>
+		</proudctMonitor>
+		<!-- 店铺基本信息 -->
+		<storeBaseInfo>
+			<storeURL mode="0">http://mall.jd.com/index-[storeActualID].html</storeURL><!-- mode=0：表示构造URL；mode=1：表示用正则表达式获取URL -->
+			<storeActualID>(?&lt;=venderId:[^:]{1,50}shopId:')(\d{1,20})(?=')</storeActualID>
+			<storeName>(?&lt;=class="seller-infor"&gt;[^&gt;]{1,300}>)([^&lt;]*)(?=&lt;)</storeName>
+		</storeBaseInfo>
+		<!-- 店铺评分监测信息 -->
+		<storeMonitor>
+			<comprehensiveScore>(?&lt;=&lt;div class="jGrade" title=")([^&gt;]*)(?=分"&gt;)</comprehensiveScore><!-- 综合评分 -->
+
+			<productScore></productScore><!-- 产品评分 -->
+			<productQuality>(?&lt;=&lt;span class="jNum" title=")([^&gt;]*)(?=分"&gt;)</productQuality><!-- 商品质量满意度 -->
+			<productDescription></productDescription><!-- 商品描述满意度 -->
+			<exchangeRate>(?&lt;=&lt;span class="jNum" title=")([^&gt;]*)(?=%"&gt;)</exchangeRate><!-- 退换货/返修率 -->
+			
+			<serviceScore></serviceScore><!-- 服务评分 -->
+			<serviceAttitude></serviceAttitude><!-- 商家服务态度满意度 -->
+			<deliveryAttitude></deliveryAttitude><!-- 配送人员态度满意度 -->
+			<onlineService></onlineService><!-- 在线客服满意度 -->
+			<exchangeDeal></exchangeDeal><!-- 退换货处理满意度 -->
+
+			<timelinessScore></timelinessScore><!-- 时效评分 -->
+			<logisticsSpeed></logisticsSpeed><!-- 物流速度满意度 -->
+			<sendTimelinessRate></sendTimelinessRate><!-- 发货及时率 -->
+			<exchangeDuration>(?&lt;=&lt;span class="jNum" title=")([^&gt;]*)(?=小时"&gt;)</exchangeDuration><!-- 退换货处理时长 -->
+			<onlineResponseTime>(?&lt;=&lt;span class="jNum" title=")([^&gt;]*)(?=秒"&gt;)</onlineResponseTime><!-- 在线客服响应时长 -->
+		</storeMonitor>
+	</JingDong>
+	<!-- 苏宁易购 -->
+	<SuNing>
+		<charset>utf-8</charset>
+		<taskCount>100</taskCount>
+		<singleInterval>5</singleInterval><!-- 单个产品内容获取的间隔时间 -->
+		<taskInterval>20</taskInterval><!-- 每批任务的间隔时间 -->
+		<!-- 产品基本信息 -->
+		<productBaseInfo>
+			<productActuallID>(?&lt;=id="curPartNumber" value=")(\d*)(?="/&gt;)</productActuallID><!-- (?&lt;=id="curPartNumber" value=")(\d*)(?="/&gt;)    (?&lt;=simBuyType":"[\w\W]{0,20}","partNumber":")(\d*)(?=")-->
+			<productName>(?&lt;="itemDisplayName":")([^"]*)(?=")</productName>
+			<productDescription>(?&lt;="description" content=")([^"]*)(?=")</productDescription>
+			<productShelveDate></productShelveDate>
+			<productWeight>(?&lt;=&lt;span&gt;净含量&lt;/span&gt;[^"]{1,500}"val"&gt;)([^&lt;]*)(?=&lt;/td&gt;)</productWeight><!-- (?&lt;=&lt;td class="val"&gt;)(\d*\.\d*)(?=[\w\W]{1,3}) -->
+			<productOrigin>(?&lt;=&lt;span&gt;国产/进口&lt;/span&gt;[^"]{1,500}"val"&gt;)([^&lt;]*)(?=&lt;/td&gt;)</productOrigin>
+			<productCategory>(?&lt;=&lt;span&gt;类别&lt;/span&gt;[^"]{1,500}"val"&gt;)([^&lt;]*)(?=&lt;/td&gt;)</productCategory>
+			<productBrand>(?&lt;=&lt;span&gt;品牌&lt;/span&gt;[^"]{1,500}"val"&gt;)([^&lt;]*)(?=&lt;/td&gt;)</productBrand>
+		</productBaseInfo>
+		<!-- 产品监测信息 -->
+		<proudctMonitor>
+			<price url="http://icps.suning.com/icps-web/getAllPriceFourPage/[productID]__025_0250101_1_pc_showSaleStatus.vhtm?callback=showSaleStatus">(?&lt;=promotionPrice":")([^"]*)(?=")</price>
+			<monthSalesCount></monthSalesCount>
+			<commentCount url="http://review.suning.com/ajax/review_satisfy/general-[productID]------satisfy.htm?callback=satisfy" star="1">(?&lt;=totalCount":)(\d*)(?=,)</commentCount>
+			
+			<goodCommentCount>(?&lt;=fiveStarCount":)(\d*)(?=,)</goodCommentCount>
+			<fourStarCommentCount>(?&lt;=fourStarCount":)(\d*)(?=,)</fourStarCommentCount>
+			
+			<midCommentCount>(?&lt;=threeStarCount":)(\d*)(?=,)</midCommentCount>
+			<twoStarCommentCount>(?&lt;=twoStarCount":)(\d*)(?=,)</twoStarCommentCount>
+			
+			<badCommentCount>(?&lt;=oneStarCount":)(\d*)(?=,)</badCommentCount>
+			<additionCommentCount>(?&lt;=againCount":)(\d*)(?=,)</additionCommentCount>
+			<pictureCommentCount>(?&lt;=picFlagCount":)(\d*)(?=,)</pictureCommentCount>
+		</proudctMonitor>
+		<!-- 店铺基本信息 -->
+		<storeBaseInfo>
+			<storeURL mode="0">http://shop.suning.com/[storeActualID]/index.html</storeURL><!-- mode=0：表示构造URL；mode=1：表示用正则表达式获取URL -->
+			<storeActualID>(?&lt;=flagshipid":")([^"]*)(?=")</storeActualID>
+			<storeName>(?&lt;=flagshipName":")([^"]*)(?=")</storeName>
+		</storeBaseInfo>
+		<!-- 店铺评分监测信息 -->
+		<storeMonitor>
+			<comprehensiveScore></comprehensiveScore><!-- 综合评分 -->
+
+			<productScore></productScore><!-- 产品评分 -->
+			<productQuality></productQuality><!-- 商品质量满意度 -->
+			<productDescription></productDescription><!-- 商品描述满意度 -->
+			<exchangeRate></exchangeRate><!-- 退换货/返修率 -->
+			
+			<serviceScore></serviceScore><!-- 服务评分 -->
+			<serviceAttitude></serviceAttitude><!-- 商家服务态度满意度 -->
+			<deliveryAttitude></deliveryAttitude><!-- 配送人员态度满意度 -->
+			<onlineService></onlineService><!-- 在线客服满意度 -->
+			<exchangeDeal></exchangeDeal><!-- 退换货处理满意度 -->
+
+			<timelinessScore></timelinessScore><!-- 时效评分 -->
+			<logisticsSpeed></logisticsSpeed><!-- 物流速度满意度 -->
+			<sendTimelinessRate></sendTimelinessRate><!-- 发货及时率 -->
+			<exchangeDuration></exchangeDuration><!-- 退换货处理时长 -->
+			<onlineResponseTime></onlineResponseTime><!-- 在线客服响应时长 -->
+		</storeMonitor>
+	</SuNing>
+	
+	<!-- 淘宝 -->
+	<TaoBao>
+		<charset>utf-8</charset>
+		<!-- 产品基本信息 -->
+		<productBaseInfo>
+			<productActuallID></productActuallID>
+			<productName></productName>
+			<productDescription></productDescription>
+			<productShelveDate></productShelveDate>
+			<productWeight></productWeight>
+			<productOrigin></productOrigin>
+			<productCategory></productCategory>
+			<productBrand></productBrand>
+		</productBaseInfo>
+		<!-- 产品监测信息 -->
+		<proudctMonitor>
+			<price></price>
+			<monthSalesCount></monthSalesCount>
+			<commentCount></commentCount>
+			<goodCommentCount></goodCommentCount>
+			<midCommentCount></midCommentCount>
+			<badCommentCount></badCommentCount>
+			<additionCommentCount></additionCommentCount>
+			<pictureCommentCount></pictureCommentCount>
+		</proudctMonitor>
+		<!-- 店铺基本信息 -->
+		<storeBaseInfo>
+			<storeURL></storeURL>
+			<storeActualID></storeActualID>
+			<storeName></storeName>
+		</storeBaseInfo>
+		<!-- 店铺评分监测信息 -->
+		<storeMonitor>
+			<comprehensiveScore></comprehensiveScore><!-- 综合评分 -->
+
+			<productScore></productScore><!-- 产品评分 -->
+			<productQuality></productQuality><!-- 商品质量满意度 -->
+			<productDescription></productDescription><!-- 商品描述满意度 -->
+			<exchangeRate></exchangeRate><!-- 退换货/返修率 -->
+			
+			<serviceScore></serviceScore><!-- 服务评分 -->
+			<serviceAttitude></serviceAttitude><!-- 商家服务态度满意度 -->
+			<deliveryAttitude></deliveryAttitude><!-- 配送人员态度满意度 -->
+			<onlineService></onlineService><!-- 在线客服满意度 -->
+			<exchangeDeal></exchangeDeal><!-- 退换货处理满意度 -->
+
+			<timelinessScore></timelinessScore><!-- 时效评分 -->
+			<logisticsSpeed></logisticsSpeed><!-- 物流速度满意度 -->
+			<sendTimelinessRate></sendTimelinessRate><!-- 发货及时率 -->
+			<exchangeDuration></exchangeDuration><!-- 退换货处理时长 -->
+			<onlineResponseTime></onlineResponseTime><!-- 在线客服响应时长 -->
+		</storeMonitor>
+	</TaoBao>
+	<!-- 天猫 -->
+	<Tmall>
+		<charset>gbk</charset>
+		<!-- 产品基本信息 -->
+		<productBaseInfo>
+			<productActuallID></productActuallID>
+			<productName></productName>
+			<productDescription></productDescription>
+			<productShelveDate></productShelveDate>
+			<productWeight></productWeight>
+			<productOrigin></productOrigin>
+			<productCategory></productCategory>
+			<productBrand></productBrand>
+		</productBaseInfo>
+		<!-- 产品监测信息 -->
+		<proudctMonitor>
+			<price></price>
+			<monthSalesCount></monthSalesCount>
+			<commentCount></commentCount>
+			<goodCommentCount></goodCommentCount>
+			<midCommentCount></midCommentCount>
+			<badCommentCount></badCommentCount>
+			<additionCommentCount></additionCommentCount>
+			<pictureCommentCount></pictureCommentCount>
+		</proudctMonitor>
+		<!-- 店铺基本信息 -->
+		<storeBaseInfo>
+			<storeURL></storeURL>
+			<storeActualID></storeActualID>
+			<storeName></storeName>
+		</storeBaseInfo>
+		<!-- 店铺评分监测信息 -->
+		<storeMonitor>
+			<comprehensiveScore></comprehensiveScore><!-- 综合评分 -->
+
+			<productScore></productScore><!-- 产品评分 -->
+			<productQuality></productQuality><!-- 商品质量满意度 -->
+			<productDescription></productDescription><!-- 商品描述满意度 -->
+			<exchangeRate></exchangeRate><!-- 退换货/返修率 -->
+			
+			<serviceScore></serviceScore><!-- 服务评分 -->
+			<serviceAttitude></serviceAttitude><!-- 商家服务态度满意度 -->
+			<deliveryAttitude></deliveryAttitude><!-- 配送人员态度满意度 -->
+			<onlineService></onlineService><!-- 在线客服满意度 -->
+			<exchangeDeal></exchangeDeal><!-- 退换货处理满意度 -->
+
+			<timelinessScore></timelinessScore><!-- 时效评分 -->
+			<logisticsSpeed></logisticsSpeed><!-- 物流速度满意度 -->
+			<sendTimelinessRate></sendTimelinessRate><!-- 发货及时率 -->
+			<exchangeDuration></exchangeDuration><!-- 退换货处理时长 -->
+			<onlineResponseTime></onlineResponseTime><!-- 在线客服响应时长 -->
+		</storeMonitor>
+	</Tmall>
+	<!-- 一号店 -->
+	<YiHaoDian>
+		<charset>utf-8</charset>
+		<!-- 产品基本信息 -->
+		<productBaseInfo>
+			<productActuallID></productActuallID>
+			<productName></productName>
+			<productDescription></productDescription>
+			<productShelveDate></productShelveDate>
+			<productWeight></productWeight>
+			<productOrigin></productOrigin>
+			<productCategory></productCategory>
+			<productBrand></productBrand>
+		</productBaseInfo>
+		<!-- 产品监测信息 -->
+		<proudctMonitor>
+			<price></price>
+			<monthSalesCount></monthSalesCount>
+			<commentCount></commentCount>
+			<goodCommentCount></goodCommentCount>
+			<midCommentCount></midCommentCount>
+			<badCommentCount></badCommentCount>
+			<additionCommentCount></additionCommentCount>
+			<pictureCommentCount></pictureCommentCount>
+		</proudctMonitor>
+		<!-- 店铺基本信息 -->
+		<storeBaseInfo>
+			<storeURL></storeURL>
+			<storeActualID></storeActualID>
+			<storeName></storeName>
+		</storeBaseInfo>
+		<!-- 店铺评分监测信息 -->
+		<storeMonitor>
+			<comprehensiveScore></comprehensiveScore><!-- 综合评分 -->
+
+			<productScore></productScore><!-- 产品评分 -->
+			<productQuality></productQuality><!-- 商品质量满意度 -->
+			<productDescription></productDescription><!-- 商品描述满意度 -->
+			<exchangeRate></exchangeRate><!-- 退换货/返修率 -->
+			
+			<serviceScore></serviceScore><!-- 服务评分 -->
+			<serviceAttitude></serviceAttitude><!-- 商家服务态度满意度 -->
+			<deliveryAttitude></deliveryAttitude><!-- 配送人员态度满意度 -->
+			<onlineService></onlineService><!-- 在线客服满意度 -->
+			<exchangeDeal></exchangeDeal><!-- 退换货处理满意度 -->
+
+			<timelinessScore></timelinessScore><!-- 时效评分 -->
+			<logisticsSpeed></logisticsSpeed><!-- 物流速度满意度 -->
+			<sendTimelinessRate></sendTimelinessRate><!-- 发货及时率 -->
+			<exchangeDuration></exchangeDuration><!-- 退换货处理时长 -->
+			<onlineResponseTime></onlineResponseTime><!-- 在线客服响应时长 -->
+		</storeMonitor>
+	</YiHaoDian>
+	<!-- 顺丰优选 -->
+	<ShunFengYouXuan>
+		<charset>utf-8</charset>
+		<!-- 产品基本信息 -->
+		<productBaseInfo>
+			<productActuallID></productActuallID>
+			<productName></productName>
+			<productDescription></productDescription>
+			<productShelveDate></productShelveDate>
+			<productWeight></productWeight>
+			<productOrigin></productOrigin>
+			<productCategory></productCategory>
+			<productBrand></productBrand>
+		</productBaseInfo>
+		<!-- 产品监测信息 -->
+		<proudctMonitor>
+			<price></price>
+			<monthSalesCount></monthSalesCount>
+			<commentCount></commentCount>
+			<goodCommentCount></goodCommentCount>
+			<midCommentCount></midCommentCount>
+			<badCommentCount></badCommentCount>
+			<additionCommentCount></additionCommentCount>
+			<pictureCommentCount></pictureCommentCount>
+		</proudctMonitor>
+		<!-- 店铺基本信息 -->
+		<storeBaseInfo>
+			<storeURL></storeURL>
+			<storeActualID></storeActualID>
+			<storeName></storeName>
+		</storeBaseInfo>
+		<!-- 店铺评分监测信息 -->
+		<storeMonitor>
+			<comprehensiveScore></comprehensiveScore><!-- 综合评分 -->
+
+			<productScore></productScore><!-- 产品评分 -->
+			<productQuality></productQuality><!-- 商品质量满意度 -->
+			<productDescription></productDescription><!-- 商品描述满意度 -->
+			<exchangeRate></exchangeRate><!-- 退换货/返修率 -->
+			
+			<serviceScore></serviceScore><!-- 服务评分 -->
+			<serviceAttitude></serviceAttitude><!-- 商家服务态度满意度 -->
+			<deliveryAttitude></deliveryAttitude><!-- 配送人员态度满意度 -->
+			<onlineService></onlineService><!-- 在线客服满意度 -->
+			<exchangeDeal></exchangeDeal><!-- 退换货处理满意度 -->
+
+			<timelinessScore></timelinessScore><!-- 时效评分 -->
+			<logisticsSpeed></logisticsSpeed><!-- 物流速度满意度 -->
+			<sendTimelinessRate></sendTimelinessRate><!-- 发货及时率 -->
+			<exchangeDuration></exchangeDuration><!-- 退换货处理时长 -->
+			<onlineResponseTime></onlineResponseTime><!-- 在线客服响应时长 -->
+		</storeMonitor>
+	</ShunFengYouXuan>
+	<!-- 邮乐购 -->
+	<YouLeGou>
+		<charset>utf-8</charset>
+		<!-- 产品基本信息 -->
+		<productBaseInfo>
+			<productActuallID></productActuallID>
+			<productName></productName>
+			<productDescription></productDescription>
+			<productShelveDate></productShelveDate>
+			<productWeight></productWeight>
+			<productOrigin></productOrigin>
+			<productCategory></productCategory>
+			<productBrand></productBrand>
+		</productBaseInfo>
+		<!-- 产品监测信息 -->
+		<proudctMonitor>
+			<price></price>
+			<monthSalesCount></monthSalesCount>
+			<commentCount></commentCount>
+			<goodCommentCount></goodCommentCount>
+			<midCommentCount></midCommentCount>
+			<badCommentCount></badCommentCount>
+			<additionCommentCount></additionCommentCount>
+			<pictureCommentCount></pictureCommentCount>
+		</proudctMonitor>
+		<!-- 店铺基本信息 -->
+		<storeBaseInfo>
+			<storeURL></storeURL>
+			<storeActualID></storeActualID>
+			<storeName></storeName>
+		</storeBaseInfo>
+		<!-- 店铺评分监测信息 -->
+		<storeMonitor>
+			<comprehensiveScore></comprehensiveScore><!-- 综合评分 -->
+
+			<productScore></productScore><!-- 产品评分 -->
+			<productQuality></productQuality><!-- 商品质量满意度 -->
+			<productDescription></productDescription><!-- 商品描述满意度 -->
+			<exchangeRate></exchangeRate><!-- 退换货/返修率 -->
+			
+			<serviceScore></serviceScore><!-- 服务评分 -->
+			<serviceAttitude></serviceAttitude><!-- 商家服务态度满意度 -->
+			<deliveryAttitude></deliveryAttitude><!-- 配送人员态度满意度 -->
+			<onlineService></onlineService><!-- 在线客服满意度 -->
+			<exchangeDeal></exchangeDeal><!-- 退换货处理满意度 -->
+
+			<timelinessScore></timelinessScore><!-- 时效评分 -->
+			<logisticsSpeed></logisticsSpeed><!-- 物流速度满意度 -->
+			<sendTimelinessRate></sendTimelinessRate><!-- 发货及时率 -->
+			<exchangeDuration></exchangeDuration><!-- 退换货处理时长 -->
+			<onlineResponseTime></onlineResponseTime><!-- 在线客服响应时长 -->
+		</storeMonitor>
+	</YouLeGou>
+	<!-- 沱沱工社 -->
+	<TuoTuoGongShe>
+		<charset>utf-8</charset>
+		<!-- 产品基本信息 -->
+		<productBaseInfo>
+			<productActuallID></productActuallID>
+			<productName></productName>
+			<productDescription></productDescription>
+			<productShelveDate></productShelveDate>
+			<productWeight></productWeight>
+			<productOrigin></productOrigin>
+			<productCategory></productCategory>
+			<productBrand></productBrand>
+		</productBaseInfo>
+		<!-- 产品监测信息 -->
+		<proudctMonitor>
+			<price></price>
+			<monthSalesCount></monthSalesCount>
+			<commentCount></commentCount>
+			<goodCommentCount></goodCommentCount>
+			<midCommentCount></midCommentCount>
+			<badCommentCount></badCommentCount>
+			<additionCommentCount></additionCommentCount>
+			<pictureCommentCount></pictureCommentCount>
+		</proudctMonitor>
+		<!-- 店铺基本信息 -->
+		<storeBaseInfo>
+			<storeURL></storeURL>
+			<storeActualID></storeActualID>
+			<storeName></storeName>
+		</storeBaseInfo>
+		<!-- 店铺评分监测信息 -->
+		<storeMonitor>
+			<comprehensiveScore></comprehensiveScore><!-- 综合评分 -->
+
+			<productScore></productScore><!-- 产品评分 -->
+			<productQuality></productQuality><!-- 商品质量满意度 -->
+			<productDescription></productDescription><!-- 商品描述满意度 -->
+			<exchangeRate></exchangeRate><!-- 退换货/返修率 -->
+			
+			<serviceScore></serviceScore><!-- 服务评分 -->
+			<serviceAttitude></serviceAttitude><!-- 商家服务态度满意度 -->
+			<deliveryAttitude></deliveryAttitude><!-- 配送人员态度满意度 -->
+			<onlineService></onlineService><!-- 在线客服满意度 -->
+			<exchangeDeal></exchangeDeal><!-- 退换货处理满意度 -->
+
+			<timelinessScore></timelinessScore><!-- 时效评分 -->
+			<logisticsSpeed></logisticsSpeed><!-- 物流速度满意度 -->
+			<sendTimelinessRate></sendTimelinessRate><!-- 发货及时率 -->
+			<exchangeDuration></exchangeDuration><!-- 退换货处理时长 -->
+			<onlineResponseTime></onlineResponseTime><!-- 在线客服响应时长 -->
+		</storeMonitor>
+	</TuoTuoGongShe>
+	<!-- 世纪购 -->
+	<ShiJiGou>
+		<charset>utf-8</charset>
+		<!-- 产品基本信息 -->
+		<productBaseInfo>
+			<productActuallID></productActuallID>
+			<productName></productName>
+			<productDescription></productDescription>
+			<productShelveDate></productShelveDate>
+			<productWeight></productWeight>
+			<productOrigin></productOrigin>
+			<productCategory></productCategory>
+			<productBrand></productBrand>
+		</productBaseInfo>
+		<!-- 产品监测信息 -->
+		<proudctMonitor>
+			<price></price>
+			<monthSalesCount></monthSalesCount>
+			<commentCount></commentCount>
+			<goodCommentCount></goodCommentCount>
+			<midCommentCount></midCommentCount>
+			<badCommentCount></badCommentCount>
+			<additionCommentCount></additionCommentCount>
+			<pictureCommentCount></pictureCommentCount>
+		</proudctMonitor>
+		<!-- 店铺基本信息 -->
+		<storeBaseInfo>
+			<storeURL></storeURL>
+			<storeActualID></storeActualID>
+			<storeName></storeName>
+		</storeBaseInfo>
+		<!-- 店铺评分监测信息 -->
+		<storeMonitor>
+			<comprehensiveScore></comprehensiveScore><!-- 综合评分 -->
+
+			<productScore></productScore><!-- 产品评分 -->
+			<productQuality></productQuality><!-- 商品质量满意度 -->
+			<productDescription></productDescription><!-- 商品描述满意度 -->
+			<exchangeRate></exchangeRate><!-- 退换货/返修率 -->
+			
+			<serviceScore></serviceScore><!-- 服务评分 -->
+			<serviceAttitude></serviceAttitude><!-- 商家服务态度满意度 -->
+			<deliveryAttitude></deliveryAttitude><!-- 配送人员态度满意度 -->
+			<onlineService></onlineService><!-- 在线客服满意度 -->
+			<exchangeDeal></exchangeDeal><!-- 退换货处理满意度 -->
+
+			<timelinessScore></timelinessScore><!-- 时效评分 -->
+			<logisticsSpeed></logisticsSpeed><!-- 物流速度满意度 -->
+			<sendTimelinessRate></sendTimelinessRate><!-- 发货及时率 -->
+			<exchangeDuration></exchangeDuration><!-- 退换货处理时长 -->
+			<onlineResponseTime></onlineResponseTime><!-- 在线客服响应时长 -->
+		</storeMonitor>
+	</ShiJiGou>
+	<!-- 太极养身馆 -->
+	<TaiJiYSG>
+		<charset>utf-8</charset>
+		<!-- 产品基本信息 -->
+		<productBaseInfo>
+			<productActuallID></productActuallID>
+			<productName></productName>
+			<productDescription></productDescription>
+			<productShelveDate></productShelveDate>
+			<productWeight></productWeight>
+			<productOrigin></productOrigin>
+			<productCategory></productCategory>
+			<productBrand></productBrand>
+		</productBaseInfo>
+		<!-- 产品监测信息 -->
+		<proudctMonitor>
+			<price></price>
+			<monthSalesCount></monthSalesCount>
+			<commentCount></commentCount>
+			<goodCommentCount></goodCommentCount>
+			<midCommentCount></midCommentCount>
+			<badCommentCount></badCommentCount>
+			<additionCommentCount></additionCommentCount>
+			<pictureCommentCount></pictureCommentCount>
+		</proudctMonitor>
+		<!-- 店铺基本信息 -->
+		<storeBaseInfo>
+			<storeURL></storeURL>
+			<storeActualID></storeActualID>
+			<storeName></storeName>
+		</storeBaseInfo>
+		<!-- 店铺评分监测信息 -->
+		<storeMonitor>
+			<comprehensiveScore></comprehensiveScore><!-- 综合评分 -->
+
+			<productScore></productScore><!-- 产品评分 -->
+			<productQuality></productQuality><!-- 商品质量满意度 -->
+			<productDescription></productDescription><!-- 商品描述满意度 -->
+			<exchangeRate></exchangeRate><!-- 退换货/返修率 -->
+			
+			<serviceScore></serviceScore><!-- 服务评分 -->
+			<serviceAttitude></serviceAttitude><!-- 商家服务态度满意度 -->
+			<deliveryAttitude></deliveryAttitude><!-- 配送人员态度满意度 -->
+			<onlineService></onlineService><!-- 在线客服满意度 -->
+			<exchangeDeal></exchangeDeal><!-- 退换货处理满意度 -->
+
+			<timelinessScore></timelinessScore><!-- 时效评分 -->
+			<logisticsSpeed></logisticsSpeed><!-- 物流速度满意度 -->
+			<sendTimelinessRate></sendTimelinessRate><!-- 发货及时率 -->
+			<exchangeDuration></exchangeDuration><!-- 退换货处理时长 -->
+			<onlineResponseTime></onlineResponseTime><!-- 在线客服响应时长 -->
+		</storeMonitor>
+	</TaiJiYSG>
+	<!-- 超级美味 -->
+	<ChaoJiMeiWei>
+		<charset>utf-8</charset>
+		<!-- 产品基本信息 -->
+		<productBaseInfo>
+			<productActuallID></productActuallID>
+			<productName></productName>
+			<productDescription></productDescription>
+			<productShelveDate></productShelveDate>
+			<productWeight></productWeight>
+			<productOrigin></productOrigin>
+			<productCategory></productCategory>
+			<productBrand></productBrand>
+		</productBaseInfo>
+		<!-- 产品监测信息 -->
+		<proudctMonitor>
+			<price></price>
+			<monthSalesCount></monthSalesCount>
+			<commentCount></commentCount>
+			<goodCommentCount></goodCommentCount>
+			<midCommentCount></midCommentCount>
+			<badCommentCount></badCommentCount>
+			<additionCommentCount></additionCommentCount>
+			<pictureCommentCount></pictureCommentCount>
+		</proudctMonitor>
+		<!-- 店铺基本信息 -->
+		<storeBaseInfo>
+			<storeURL></storeURL>
+			<storeActualID></storeActualID>
+			<storeName></storeName>
+		</storeBaseInfo>
+		<!-- 店铺评分监测信息 -->
+		<storeMonitor>
+			<comprehensiveScore></comprehensiveScore><!-- 综合评分 -->
+
+			<productScore></productScore><!-- 产品评分 -->
+			<productQuality></productQuality><!-- 商品质量满意度 -->
+			<productDescription></productDescription><!-- 商品描述满意度 -->
+			<exchangeRate></exchangeRate><!-- 退换货/返修率 -->
+			
+			<serviceScore></serviceScore><!-- 服务评分 -->
+			<serviceAttitude></serviceAttitude><!-- 商家服务态度满意度 -->
+			<deliveryAttitude></deliveryAttitude><!-- 配送人员态度满意度 -->
+			<onlineService></onlineService><!-- 在线客服满意度 -->
+			<exchangeDeal></exchangeDeal><!-- 退换货处理满意度 -->
+
+			<timelinessScore></timelinessScore><!-- 时效评分 -->
+			<logisticsSpeed></logisticsSpeed><!-- 物流速度满意度 -->
+			<sendTimelinessRate></sendTimelinessRate><!-- 发货及时率 -->
+			<exchangeDuration></exchangeDuration><!-- 退换货处理时长 -->
+			<onlineResponseTime></onlineResponseTime><!-- 在线客服响应时长 -->
+		</storeMonitor>
+	</ChaoJiMeiWei>
+</website>
+
+

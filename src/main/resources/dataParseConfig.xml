@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 配置uri内容方式，解析方式（1）正则表达式 （2）id选择器 -->
+
+
+<dataParseConfig>
+	<website name="TaoBao">
+		<data name="productURL">
+			<field name="productURL"></field>
+			<field name="keyword"></field>
+		</data>
+		<data name="product">
+			<field name="productActuallId" regex="" regex1=""></field>
+			<field name="productName" regex=""></field>
+			<field name="productDescription" regex=""></field>
+		</data>
+	</website>
+	<website name="Tmall">
+		<data name="productURL">
+			<field name="productURL"></field>
+			<field name="keyword"></field>
+		</data>
+		<data name="product">
+			<field name="productActuallId" regex="" regex1=""></field>
+			<field name="productName" regex=""></field>
+			<field name="productDescription" regex=""></field>
+		</data>
+	</website>	
+</dataParseConfig>

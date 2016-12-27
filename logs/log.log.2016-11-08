@@ -1,0 +1,814 @@
+2016-11-08 11:23:02 [main:0] - [DEBUG] java.lang.NullPointerException
+2016-11-08 11:24:28 [main:0] - [DEBUG] 当前行 1：https://wangkunzhou.taobao.com/	TaoBao	10215
+2016-11-08 11:25:23 [main:54833] - [DEBUG] 此店铺找到 206 件商品
+2016-11-08 11:25:23 [main:54833] - [DEBUG] 当前行 2：https://xiaoqichenlu.taobao.com/	TaoBao	11221
+2016-11-08 11:25:28 [main:60701] - [DEBUG] 此店铺找到 28 件商品
+2016-11-08 11:25:28 [main:60702] - [DEBUG] 当前行 3：https://orone.taobao.com/	TaoBao	2143
+2016-11-08 11:25:31 [main:63607] - [DEBUG] 此店铺找到 3 件商品
+2016-11-08 11:25:31 [main:63607] - [DEBUG] 当前行 4：https://weilei.taobao.com/	TaoBao	10246
+2016-11-08 11:25:57 [main:89180] - [DEBUG] 此店铺找到 195 件商品
+2016-11-08 11:25:57 [main:89181] - [DEBUG] 当前行 5：https://shop150752787.taobao.com/	TaoBao	18710
+2016-11-08 11:26:02 [main:94043] - [DEBUG] 此店铺找到 39 件商品
+2016-11-08 11:26:02 [main:94044] - [DEBUG] 当前行 6：https://yzw023.taobao.com/	TaoBao	10858
+2016-11-08 11:26:36 [main:128500] - [DEBUG] 当前行 6：https://yzw023.taobao.com/	TaoBao	10858
+2016-11-08 11:26:46 [main:138119] - [DEBUG] 当前行 7：https://cq-yicheng.taobao.com/	TaoBao	762
+2016-11-08 11:27:21 [main:173131] - [DEBUG] 当前行 7：https://cq-yicheng.taobao.com/	TaoBao	762
+2016-11-08 11:28:19 [main:230868] - [DEBUG] 当前行 7：https://cq-yicheng.taobao.com/	TaoBao	762
+2016-11-08 11:28:49 [main:261190] - [DEBUG] 当前行 7：https://cq-yicheng.taobao.com/	TaoBao	762
+2016-11-08 11:29:40 [main:312070] - [DEBUG] 当前行 7：https://cq-yicheng.taobao.com/	TaoBao	762
+2016-11-08 11:30:45 [main:377682] - [DEBUG] 当前行 6：https://yzw023.taobao.com/	TaoBao	10858
+2016-11-08 11:31:06 [main:397869] - [DEBUG] 此店铺找到 96 件商品
+2016-11-08 11:31:06 [main:397869] - [DEBUG] 当前行 7：https://cq-yicheng.taobao.com/	TaoBao	762
+2016-11-08 11:31:35 [main:427615] - [DEBUG] 此店铺找到 310 件商品
+2016-11-08 11:31:35 [main:427615] - [DEBUG] 当前行 8：https://bcstory.taobao.com/	TaoBao	552
+2016-11-08 11:32:07 [main:459303] - [DEBUG] 当前行 8：https://bcstory.taobao.com/	TaoBao	552
+2016-11-08 11:32:18 [main:470113] - [DEBUG] 此店铺找到 57 件商品
+2016-11-08 11:32:18 [main:470113] - [DEBUG] 当前行 9：https://shop113951378.taobao.com/	TaoBao	11299
+2016-11-08 11:32:46 [main:498357] - [DEBUG] 当前行 9：https://shop113951378.taobao.com/	TaoBao	11299
+2016-11-08 11:32:50 [main:502522] - [DEBUG] 此店铺找到 17 件商品
+2016-11-08 11:32:50 [main:502523] - [DEBUG] 当前行 10：https://bdhhg.taobao.com/	TaoBao	554
+2016-11-08 11:32:59 [main:511081] - [DEBUG] 此店铺找到 73 件商品
+2016-11-08 11:32:59 [main:511081] - [DEBUG] 当前行 11：https://fjqch.taobao.com/	TaoBao	1095
+2016-11-08 11:33:01 [main:513043] - [DEBUG] 此店铺找到 3 件商品
+2016-11-08 11:33:01 [main:513043] - [DEBUG] 当前行 12：https://xiangliaowang.taobao.com/	TaoBao	10387
+2016-11-08 11:33:34 [main:546124] - [DEBUG] 当前行 12：https://xiangliaowang.taobao.com/	TaoBao	10387
+2016-11-08 11:33:54 [main:566234] - [DEBUG] 此店铺找到 184 件商品
+2016-11-08 11:33:54 [main:566235] - [DEBUG] 当前行 13：https://dyhg.taobao.com/	TaoBao	1019
+2016-11-08 11:34:21 [main:593642] - [DEBUG] 此店铺找到 175 件商品
+2016-11-08 11:34:21 [main:593642] - [DEBUG] 当前行 14：https://cqyxn.taobao.com/	TaoBao	848
+2016-11-08 11:35:51 [main:683070] - [DEBUG] 当前行 14：https://cqyxn.taobao.com/	TaoBao	848
+2016-11-08 11:36:39 [main:731626] - [DEBUG] 此店铺找到 514 件商品
+2016-11-08 11:36:39 [main:731627] - [DEBUG] 当前行 15：https://ymzfood.taobao.com/	TaoBao	13901
+2016-11-08 11:36:44 [main:735833] - [DEBUG] 此店铺找到 26 件商品
+2016-11-08 11:36:44 [main:735833] - [DEBUG] 当前行 16：https://shop100585327.taobao.com/	TaoBao	2501
+2016-11-08 11:37:15 [main:766996] - [DEBUG] 当前行 16：https://shop100585327.taobao.com/	TaoBao	2501
+2016-11-08 11:37:57 [main:808837] - [DEBUG] 当前行 16：https://shop100585327.taobao.com/	TaoBao	2501
+2016-11-08 11:38:14 [main:826547] - [DEBUG] 此店铺找到 72 件商品
+2016-11-08 11:38:14 [main:826547] - [DEBUG] 当前行 17：https://zhangsong110.taobao.com/	TaoBao	10902
+2016-11-08 11:38:31 [main:843512] - [DEBUG] 此店铺找到 163 件商品
+2016-11-08 11:38:31 [main:843513] - [DEBUG] 当前行 18：https://shop114994853.taobao.com/	TaoBao	11313
+2016-11-08 11:38:33 [main:845668] - [DEBUG] 此店铺找到 19 件商品
+2016-11-08 11:38:33 [main:845668] - [DEBUG] 当前行 19：https://cqtechan.taobao.com/	TaoBao	821
+2016-11-08 11:39:24 [main:896617] - [DEBUG] 当前行 19：https://cqtechan.taobao.com/	TaoBao	821
+2016-11-08 11:39:56 [main:928394] - [DEBUG] 此店铺找到 279 件商品
+2016-11-08 11:39:56 [main:928395] - [DEBUG] 当前行 20：https://cqszw.taobao.com/	TaoBao	817
+2016-11-08 11:40:04 [main:936432] - [DEBUG] 当前行 21：https://balalafood.taobao.com/	TaoBao	528
+2016-11-08 11:40:59 [main:991013] - [DEBUG] 此店铺找到 440 件商品
+2016-11-08 11:40:59 [main:991013] - [DEBUG] 当前行 22：https://shop131152556.taobao.com/	TaoBao	6617
+2016-11-08 11:41:11 [main:1002962] - [DEBUG] 此店铺找到 110 件商品
+2016-11-08 11:41:11 [main:1002963] - [DEBUG] 当前行 23：https://shop113170135.taobao.com/	TaoBao	15456
+2016-11-08 11:41:14 [main:1005817] - [DEBUG] 此店铺找到 2 件商品
+2016-11-08 11:41:14 [main:1005817] - [DEBUG] 当前行 24：https://58food.taobao.com/	TaoBao	298
+2016-11-08 11:41:31 [main:1023335] - [DEBUG] 此店铺找到 175 件商品
+2016-11-08 11:41:31 [main:1023335] - [DEBUG] 当前行 25：https://shop72332118.taobao.com/	TaoBao	9784
+2016-11-08 11:41:35 [main:1027746] - [DEBUG] 此店铺找到 35 件商品
+2016-11-08 11:41:35 [main:1027746] - [DEBUG] 当前行 26：https://shop103729354.taobao.com/	TaoBao	2754
+2016-11-08 11:42:19 [main:1070852] - [DEBUG] 当前行 26：https://shop103729354.taobao.com/	TaoBao	2754
+2016-11-08 11:43:28 [main:1139955] - [DEBUG] 此店铺找到 305 件商品
+2016-11-08 11:43:28 [main:1139955] - [DEBUG] 当前行 27：https://5679.taobao.com/	TaoBao	288
+2016-11-08 11:45:20 [main:1252666] - [DEBUG] 此店铺找到 606 件商品
+2016-11-08 11:45:20 [main:1252669] - [DEBUG] 当前行 28：https://shop108721743.taobao.com/	TaoBao	3306
+2016-11-08 11:45:46 [main:1278295] - [DEBUG] 此店铺找到 176 件商品
+2016-11-08 11:45:46 [main:1278295] - [DEBUG] 当前行 29：https://yuzhenfood.taobao.com/	TaoBao	10834
+2016-11-08 11:46:03 [main:1295183] - [DEBUG] 此店铺找到 130 件商品
+2016-11-08 11:46:03 [main:1295183] - [DEBUG] 当前行 30：https://shop107038687.taobao.com/	TaoBao	3035
+2016-11-08 11:46:09 [main:1301569] - [DEBUG] 此店铺找到 68 件商品
+2016-11-08 11:46:09 [main:1301569] - [DEBUG] 当前行 31：https://shop145365763.taobao.com/	TaoBao	8562
+2016-11-08 11:46:14 [main:1306174] - [DEBUG] 此店铺找到 31 件商品
+2016-11-08 11:46:14 [main:1306174] - [DEBUG] 当前行 32：https://shop64250613.taobao.com/	TaoBao	9297
+2016-11-08 11:46:18 [main:1310235] - [DEBUG] 此店铺找到 25 件商品
+2016-11-08 11:46:18 [main:1310235] - [DEBUG] 当前行 33：https://laoshir.taobao.com/	TaoBao	1714
+2016-11-08 11:46:32 [main:1324223] - [DEBUG] 此店铺找到 137 件商品
+2016-11-08 11:46:32 [main:1324223] - [DEBUG] 当前行 34：https://cqbuf.taobao.com/	TaoBao	765
+2016-11-08 11:47:05 [main:1357118] - [DEBUG] 此店铺找到 368 件商品
+2016-11-08 11:47:05 [main:1357118] - [DEBUG] 当前行 35：https://shop36470672.taobao.com/	TaoBao	8910
+2016-11-08 11:47:42 [main:1393805] - [DEBUG] 当前行 35：https://shop36470672.taobao.com/	TaoBao	8910
+2016-11-08 11:48:17 [main:1428896] - [DEBUG] 当前行 36：https://anan7788.taobao.com/	TaoBao	462
+2016-11-08 11:48:23 [main:1435540] - [DEBUG] 当前行 36：https://anan7788.taobao.com/	TaoBao	462
+2016-11-08 11:49:25 [main:1496933] - [DEBUG] 此店铺找到 519 件商品
+2016-11-08 11:49:25 [main:1496933] - [DEBUG] 当前行 37：https://liujun23.taobao.com/	TaoBao	1781
+2016-11-08 11:49:36 [main:1508501] - [DEBUG] 此店铺找到 120 件商品
+2016-11-08 11:49:36 [main:1508501] - [DEBUG] 当前行 38：https://shop105557925.taobao.com/	TaoBao	2895
+2016-11-08 11:50:05 [main:1537414] - [DEBUG] 当前行 38：https://shop105557925.taobao.com/	TaoBao	2895
+2016-11-08 11:50:09 [main:1541544] - [DEBUG] 此店铺找到 24 件商品
+2016-11-08 11:50:09 [main:1541545] - [DEBUG] 当前行 39：https://98598.taobao.com/	TaoBao	404
+2016-11-08 11:50:16 [main:1548428] - [DEBUG] 此店铺找到 60 件商品
+2016-11-08 11:50:16 [main:1548428] - [DEBUG] 当前行 40：https://chinacq.taobao.com/	TaoBao	704
+2016-11-08 11:50:25 [main:1557085] - [DEBUG] 当前行 41：https://xyszxhl1213.taobao.com/	TaoBao	10589
+2016-11-08 11:50:35 [main:1567632] - [DEBUG] 此店铺找到 107 件商品
+2016-11-08 11:50:35 [main:1567632] - [DEBUG] 当前行 42：https://cqmzz.taobao.com/	TaoBao	11132
+2016-11-08 11:50:40 [main:1572143] - [DEBUG] 此店铺找到 24 件商品
+2016-11-08 11:50:40 [main:1572144] - [DEBUG] 当前行 43：https://shop69001428.taobao.com/	TaoBao	9556
+2016-11-08 11:50:44 [main:1575996] - [DEBUG] 此店铺找到 28 件商品
+2016-11-08 11:50:44 [main:1575996] - [DEBUG] 当前行 44：https://shop116215876.taobao.com/	TaoBao	16008
+2016-11-08 11:50:46 [main:1578024] - [DEBUG] 此店铺找到 20 件商品
+2016-11-08 11:50:46 [main:1578025] - [DEBUG] 当前行 45：https://dazuibamc.taobao.com/	TaoBao	929
+2016-11-08 11:50:48 [main:1580109] - [DEBUG] 此店铺找到 18 件商品
+2016-11-08 11:50:48 [main:1580110] - [DEBUG] 当前行 46：https://shop112325930.taobao.com/	TaoBao	15311
+2016-11-08 11:50:50 [main:1582121] - [DEBUG] 此店铺找到 5 件商品
+2016-11-08 11:50:50 [main:1582122] - [DEBUG] 当前行 47：https://sp023.taobao.com/	TaoBao	9954
+2016-11-08 11:51:05 [main:1597091] - [DEBUG] 此店铺找到 168 件商品
+2016-11-08 11:51:05 [main:1597091] - [DEBUG] 当前行 48：https://shop116742743.taobao.com/	TaoBao	16113
+2016-11-08 11:51:07 [main:1599316] - [DEBUG] 此店铺找到 9 件商品
+2016-11-08 11:51:07 [main:1599316] - [DEBUG] 当前行 49：https://shop107899829.taobao.com/	TaoBao	3150
+2016-11-08 11:51:22 [main:1613920] - [DEBUG] 此店铺找到 140 件商品
+2016-11-08 11:51:22 [main:1613920] - [DEBUG] 当前行 50：https://shop72407640.taobao.com/	TaoBao	9793
+2016-11-08 11:51:24 [main:1615993] - [DEBUG] 此店铺找到 23 件商品
+2016-11-08 11:51:24 [main:1615994] - [DEBUG] 当前行 51：https://shaobaige.taobao.com/	TaoBao	2404
+2016-11-08 11:51:32 [main:1623970] - [DEBUG] 当前行 52：https://yuzhiweifood.taobao.com/	TaoBao	10836
+2016-11-08 11:52:22 [main:1674325] - [DEBUG] 此店铺找到 432 件商品
+2016-11-08 11:52:22 [main:1674325] - [DEBUG] 当前行 53：https://shop113641158.taobao.com/	TaoBao	4134
+2016-11-08 11:52:24 [main:1676313] - [DEBUG] 此店铺找到 11 件商品
+2016-11-08 11:52:24 [main:1676313] - [DEBUG] 当前行 54：https://xiaoyaowuxi.taobao.com/	TaoBao	10442
+2016-11-08 11:52:40 [main:1692114] - [DEBUG] 此店铺找到 32 件商品
+2016-11-08 11:52:40 [main:1692114] - [DEBUG] 当前行 55：https://shop124016519.taobao.com/	TaoBao	16652
+2016-11-08 11:52:42 [main:1694668] - [DEBUG] 此店铺找到 9 件商品
+2016-11-08 11:52:42 [main:1694669] - [DEBUG] 当前行 56：https://cqtcms.taobao.com/	TaoBao	11165
+2016-11-08 11:53:00 [main:1711815] - [DEBUG] 此店铺找到 160 件商品
+2016-11-08 11:53:00 [main:1711816] - [DEBUG] 当前行 57：https://xiaosichuan.taobao.com/	TaoBao	10432
+2016-11-08 11:54:12 [main:1783924] - [DEBUG] 当前行 57：https://xiaosichuan.taobao.com/	TaoBao	10432
+2016-11-08 11:55:17 [main:1849591] - [DEBUG] 此店铺找到 493 件商品
+2016-11-08 11:55:17 [main:1849591] - [DEBUG] 当前行 58：https://camel-huwai.taobao.com/	TaoBao	629
+2016-11-08 11:55:49 [main:1881756] - [DEBUG] 此店铺找到 123 件商品
+2016-11-08 11:55:49 [main:1881756] - [DEBUG] 当前行 59：https://benrunfood.taobao.com/	TaoBao	566
+2016-11-08 11:55:52 [main:1884320] - [DEBUG] 此店铺找到 20 件商品
+2016-11-08 11:55:52 [main:1884320] - [DEBUG] 当前行 60：https://shop114966713.taobao.com/	TaoBao	4392
+2016-11-08 11:56:08 [main:1900509] - [DEBUG] 此店铺找到 175 件商品
+2016-11-08 11:56:08 [main:1900509] - [DEBUG] 当前行 61：https://huoguo168.taobao.com/	TaoBao	1439
+2016-11-08 11:56:18 [main:1910446] - [DEBUG] 此店铺找到 110 件商品
+2016-11-08 11:56:18 [main:1910446] - [DEBUG] 当前行 62：https://skyz.taobao.com/	TaoBao	9927
+2016-11-08 11:56:28 [main:1920635] - [DEBUG] 此店铺找到 111 件商品
+2016-11-08 11:56:28 [main:1920635] - [DEBUG] 当前行 63：https://jzscha.taobao.com/	TaoBao	1621
+2016-11-08 11:57:10 [main:1962673] - [DEBUG] 当前行 63：https://jzscha.taobao.com/	TaoBao	1621
+2016-11-08 11:57:34 [main:1986631] - [DEBUG] 此店铺找到 62 件商品
+2016-11-08 11:57:34 [main:1986632] - [DEBUG] 当前行 64：https://shop58724115.taobao.com/	TaoBao	9018
+2016-11-08 11:57:51 [main:2003456] - [DEBUG] 此店铺找到 57 件商品
+2016-11-08 11:57:51 [main:2003456] - [DEBUG] 当前行 65：https://023yzw.taobao.com/	TaoBao	22
+2016-11-08 11:58:44 [main:2056030] - [DEBUG] 此店铺找到 310 件商品
+2016-11-08 11:58:44 [main:2056030] - [DEBUG] 当前行 66：https://juewe.taobao.com/	TaoBao	1578
+2016-11-08 12:00:53 [main:2185612] - [DEBUG] 此店铺找到 150 件商品
+2016-11-08 12:00:53 [main:2185613] - [DEBUG] 当前行 67：https://shop117189978.taobao.com/	TaoBao	4898
+2016-11-08 12:01:37 [main:2229223] - [DEBUG] 此店铺找到 129 件商品
+2016-11-08 12:01:40 [main:2232400] - [DEBUG] 当前行 68：https://shop110352700.taobao.com/	TaoBao	3579
+2016-11-08 12:02:49 [main:2301213] - [DEBUG] 此店铺找到 72 件商品
+2016-11-08 12:02:49 [main:2301214] - [DEBUG] 当前行 69：https://jjmihuatang.taobao.com/	TaoBao	1552
+2016-11-08 12:03:07 [main:2319371] - [DEBUG] 此店铺找到 67 件商品
+2016-11-08 12:03:07 [main:2319371] - [DEBUG] 当前行 70：https://shop130550733.taobao.com/	TaoBao	6482
+2016-11-08 12:03:49 [main:2361151] - [DEBUG] 此店铺找到 70 件商品
+2016-11-08 12:03:49 [main:2361151] - [DEBUG] 当前行 71：https://shop109710875.taobao.com/	TaoBao	3473
+2016-11-08 12:04:52 [main:2423793] - [DEBUG] 此店铺找到 159 件商品
+2016-11-08 12:04:52 [main:2423793] - [DEBUG] 当前行 72：https://wjyc.taobao.com/	TaoBao	10279
+2016-11-08 12:05:40 [main:2471910] - [DEBUG] 当前行 72：https://wjyc.taobao.com/	TaoBao	10279
+2016-11-08 12:05:55 [main:2487730] - [DEBUG] 此店铺找到 98 件商品
+2016-11-08 12:05:55 [main:2487746] - [DEBUG] 当前行 73：https://shop100902583.taobao.com/	TaoBao	2522
+2016-11-08 12:07:07 [main:2558983] - [DEBUG] 此店铺找到 217 件商品
+2016-11-08 12:07:07 [main:2558983] - [DEBUG] 当前行 74：https://shop111215732.taobao.com/	TaoBao	3716
+2016-11-08 12:07:30 [main:2582103] - [DEBUG] 此店铺找到 22 件商品
+2016-11-08 12:07:30 [main:2582103] - [DEBUG] 当前行 75：https://quanshengcanyin.taobao.com/	TaoBao	2272
+2016-11-08 12:08:19 [main:2631037] - [DEBUG] 当前行 75：https://quanshengcanyin.taobao.com/	TaoBao	2272
+2016-11-08 12:09:31 [main:2703406] - [DEBUG] 当前行 75：https://quanshengcanyin.taobao.com/	TaoBao	2272
+2016-11-08 12:10:32 [main:2764235] - [DEBUG] 此店铺找到 168 件商品
+2016-11-08 12:10:32 [main:2764235] - [DEBUG] 当前行 76：https://shop72408744.taobao.com/	TaoBao	11972
+2016-11-08 12:11:04 [main:2796173] - [DEBUG] 当前行 76：https://shop72408744.taobao.com/	TaoBao	11972
+2016-11-08 12:11:39 [main:2831258] - [DEBUG] 当前行 76：https://shop72408744.taobao.com/	TaoBao	11972
+2016-11-08 12:12:34 [main:2886410] - [DEBUG] 当前行 76：https://shop72408744.taobao.com/	TaoBao	11972
+2016-11-08 12:13:39 [main:2951188] - [DEBUG] 当前行 76：https://shop72408744.taobao.com/	TaoBao	11972
+2016-11-08 12:14:42 [main:3014671] - [DEBUG] 此店铺找到 337 件商品
+2016-11-08 12:14:42 [main:3014671] - [DEBUG] 当前行 77：https://shixy.taobao.com/	TaoBao	2453
+2016-11-08 12:15:12 [main:3044482] - [DEBUG] 此店铺找到 46 件商品
+2016-11-08 12:15:12 [main:3044482] - [DEBUG] 当前行 78：https://shop108469954.taobao.com/	TaoBao	3257
+2016-11-08 12:15:24 [main:3056366] - [DEBUG] 此店铺找到 29 件商品
+2016-11-08 12:15:24 [main:3056366] - [DEBUG] 当前行 79：https://shop124521386.taobao.com/	TaoBao	11418
+2016-11-08 12:16:07 [main:3099617] - [DEBUG] 此店铺找到 24 件商品
+2016-11-08 12:16:07 [main:3099618] - [DEBUG] 当前行 80：https://cqyushihui.taobao.com/	TaoBao	847
+2016-11-08 12:16:58 [main:3149764] - [DEBUG] 此店铺找到 392 件商品
+2016-11-08 12:16:58 [main:3149765] - [DEBUG] 当前行 81：https://siweimi.taobao.com/	TaoBao	9912
+2016-11-08 12:17:28 [main:3179865] - [DEBUG] 此店铺找到 96 件商品
+2016-11-08 12:17:28 [main:3179866] - [DEBUG] 当前行 82：https://shop64334677.taobao.com/	TaoBao	9298
+2016-11-08 12:17:34 [main:3186127] - [DEBUG] 此店铺找到 51 件商品
+2016-11-08 12:17:34 [main:3186127] - [DEBUG] 当前行 83：https://shop124179379.taobao.com/	TaoBao	16667
+2016-11-08 12:17:38 [main:3190108] - [DEBUG] 此店铺找到 36 件商品
+2016-11-08 12:17:38 [main:3190108] - [DEBUG] 当前行 84：https://shop140531820.taobao.com/	TaoBao	7275
+2016-11-08 12:17:55 [main:3207576] - [DEBUG] 此店铺找到 71 件商品
+2016-11-08 12:17:55 [main:3207576] - [DEBUG] 当前行 85：https://shop127371266.taobao.com/	TaoBao	5931
+2016-11-08 12:18:04 [main:3216010] - [DEBUG] 此店铺找到 75 件商品
+2016-11-08 12:18:04 [main:3216011] - [DEBUG] 当前行 86：https://qiaolaoda.taobao.com/	TaoBao	2229
+2016-11-08 12:18:06 [main:3218110] - [DEBUG] 此店铺找到 8 件商品
+2016-11-08 12:18:06 [main:3218110] - [DEBUG] 当前行 87：https://msmkfood.taobao.com/	TaoBao	2010
+2016-11-08 12:18:51 [main:3263611] - [DEBUG] 此店铺找到 353 件商品
+2016-11-08 12:18:51 [main:3263612] - [DEBUG] 当前行 88：https://shop124459113.taobao.com/	TaoBao	5569
+2016-11-08 12:19:06 [main:3277822] - [DEBUG] 此店铺找到 149 件商品
+2016-11-08 12:19:06 [main:3277823] - [DEBUG] 当前行 89：https://xixitang8888.taobao.com/	TaoBao	10497
+2016-11-08 12:19:23 [main:3295387] - [DEBUG] 此店铺找到 210 件商品
+2016-11-08 12:19:23 [main:3295387] - [DEBUG] 当前行 90：https://shop58392301.taobao.com/	TaoBao	9001
+2016-11-08 12:19:37 [main:3309359] - [DEBUG] 此店铺找到 146 件商品
+2016-11-08 12:19:37 [main:3309359] - [DEBUG] 当前行 91：https://shop112260156.taobao.com/	TaoBao	3892
+2016-11-08 12:19:42 [main:3314074] - [DEBUG] 此店铺找到 28 件商品
+2016-11-08 12:19:42 [main:3314074] - [DEBUG] 当前行 92：https://tastejh.taobao.com/	TaoBao	10071
+2016-11-08 12:19:54 [main:3326198] - [DEBUG] 此店铺找到 124 件商品
+2016-11-08 12:19:54 [main:3326198] - [DEBUG] 当前行 93：https://cqxiaomei.taobao.com/	TaoBao	11262
+2016-11-08 12:20:00 [main:3332295] - [DEBUG] 此店铺找到 56 件商品
+2016-11-08 12:20:00 [main:3332295] - [DEBUG] 当前行 94：https://mmshidai.taobao.com/	TaoBao	1989
+2016-11-08 12:20:56 [main:3388531] - [DEBUG] 此店铺找到 418 件商品
+2016-11-08 12:20:56 [main:3388531] - [DEBUG] 当前行 95：https://73589.taobao.com/	TaoBao	344
+2016-11-08 12:21:19 [main:3411292] - [DEBUG] 此店铺找到 24 件商品
+2016-11-08 12:21:19 [main:3411292] - [DEBUG] 当前行 96：https://mlcyx.taobao.com/	TaoBao	1976
+2016-11-08 12:21:23 [main:3415320] - [DEBUG] 此店铺找到 28 件商品
+2016-11-08 12:21:23 [main:3415320] - [DEBUG] 当前行 97：https://yusilang.taobao.com/	TaoBao	11331
+2016-11-08 12:21:46 [main:3438384] - [DEBUG] 此店铺找到 13 件商品
+2016-11-08 12:21:46 [main:3438384] - [DEBUG] 当前行 98：https://shop108798502.taobao.com/	TaoBao	11207
+2016-11-08 12:21:53 [main:3445245] - [DEBUG] 此店铺找到 67 件商品
+2016-11-08 12:21:53 [main:3445245] - [DEBUG] 当前行 99：https://cqdsg.taobao.com/	TaoBao	777
+2016-11-08 12:21:57 [main:3449480] - [DEBUG] 此店铺找到 26 件商品
+2016-11-08 12:21:57 [main:3449480] - [DEBUG] 当前行 100：https://5941888.taobao.com/	TaoBao	304
+2016-11-08 12:22:11 [main:3462897] - [DEBUG] 此店铺找到 127 件商品
+2016-11-08 12:22:11 [main:3462897] - [DEBUG] 当前行 101：https://dunhuangsp.tmall.com	Tmall	1004
+2016-11-08 12:22:36 [main:3487860] - [DEBUG] 此店铺找到 559 件商品
+2016-11-08 12:22:36 [main:3487860] - [DEBUG] 当前行 102：https://jiangxiaobai.tmall.com	Tmall	17023
+2016-11-08 12:22:39 [main:3490823] - [DEBUG] 此店铺找到 52 件商品
+2016-11-08 12:22:39 [main:3490823] - [DEBUG] 当前行 103：https://zhimaguan.tmall.com	Tmall	10926
+2016-11-08 12:22:41 [main:3493536] - [DEBUG] 此店铺找到 56 件商品
+2016-11-08 12:22:41 [main:3493536] - [DEBUG] 当前行 104：https://maladuona.tmall.com	Tmall	15477
+2016-11-08 12:23:06 [main:3517863] - [DEBUG] 此店铺找到 62 件商品
+2016-11-08 12:23:06 [main:3517864] - [DEBUG] 当前行 105：https://niulanghan.tmall.com	Tmall	2074
+2016-11-08 12:23:10 [main:3522325] - [DEBUG] 此店铺找到 70 件商品
+2016-11-08 12:23:10 [main:3522326] - [DEBUG] 当前行 106：https://wqnsp.tmall.com	Tmall	10298
+2016-11-08 12:23:18 [main:3530328] - [DEBUG] 此店铺找到 170 件商品
+2016-11-08 12:23:18 [main:3530328] - [DEBUG] 当前行 107：https://ddsp.tmall.com	Tmall	941
+2016-11-08 12:23:24 [main:3536018] - [DEBUG] 此店铺找到 103 件商品
+2016-11-08 12:23:24 [main:3536018] - [DEBUG] 当前行 108：https://youyoushipin.tmall.com	Tmall	12186
+2016-11-08 12:23:27 [main:3538937] - [DEBUG] 此店铺找到 77 件商品
+2016-11-08 12:23:27 [main:3538937] - [DEBUG] 当前行 109：https://laosichuan.tmall.com	Tmall	22670
+2016-11-08 12:23:53 [main:3565542] - [DEBUG] 此店铺找到 74 件商品
+2016-11-08 12:23:53 [main:3565542] - [DEBUG] 当前行 110：https://dezhuang.tmall.com	Tmall	951
+2016-11-08 12:23:59 [main:3571332] - [DEBUG] 此店铺找到 120 件商品
+2016-11-08 12:23:59 [main:3571332] - [DEBUG] 当前行 111：https://jwzjsp.tmall.com	Tmall	1593
+2016-11-08 12:24:16 [main:3588385] - [DEBUG] 此店铺找到 337 件商品
+2016-11-08 12:24:16 [main:3588386] - [DEBUG] 当前行 112：https://wujiangsp.tmall.com	Tmall	10315
+2016-11-08 12:24:19 [main:3591115] - [DEBUG] 此店铺找到 58 件商品
+2016-11-08 12:24:19 [main:3591116] - [DEBUG] 当前行 113：https://yutanghaosp.tmall.com	Tmall	15335
+2016-11-08 12:24:28 [main:3600030] - [DEBUG] 当前行 114：https://laxifu.tmall.com	Tmall	15330
+2016-11-08 12:24:30 [main:3602731] - [DEBUG] 此店铺找到 50 件商品
+2016-11-08 12:24:30 [main:3602731] - [DEBUG] 当前行 115：https://shuangdesp.tmall.com	Tmall	9886
+2016-11-08 12:24:51 [main:3623203] - [DEBUG] 此店铺找到 416 件商品
+2016-11-08 12:24:51 [main:3623203] - [DEBUG] 当前行 116：https://yunshengcy.tmall.com	Tmall	10818
+2016-11-08 12:24:54 [main:3625883] - [DEBUG] 此店铺找到 32 件商品
+2016-11-08 12:24:54 [main:3625884] - [DEBUG] 当前行 117：https://zhouyisp.tmall.com	Tmall	17358
+2016-11-08 12:24:56 [main:3628661] - [DEBUG] 此店铺找到 38 件商品
+2016-11-08 12:24:56 [main:3628662] - [DEBUG] 当前行 118：https://xihadazuiwa.tmall.com	Tmall	19275
+2016-11-08 12:24:58 [main:3630599] - [DEBUG] 此店铺找到 10 件商品
+2016-11-08 12:24:58 [main:3630599] - [DEBUG] 当前行 119：https://qinma.tmall.com	Tmall	2246
+2016-11-08 12:25:01 [main:3633165] - [DEBUG] 此店铺找到 40 件商品
+2016-11-08 12:25:01 [main:3633166] - [DEBUG] 当前行 120：https://zlmpsp.tmall.com	Tmall	16069
+2016-11-08 12:25:05 [main:3637711] - [DEBUG] 此店铺找到 61 件商品
+2016-11-08 12:25:05 [main:3637711] - [DEBUG] 当前行 121：https://yangjiao.tmall.com	Tmall	10605
+2016-11-08 12:25:08 [main:3640371] - [DEBUG] 此店铺找到 38 件商品
+2016-11-08 12:25:08 [main:3640371] - [DEBUG] 当前行 122：https://dzwsp.tmall.com	Tmall	15131
+2016-11-08 12:25:11 [main:3642923] - [DEBUG] 此店铺找到 52 件商品
+2016-11-08 12:25:11 [main:3642924] - [DEBUG] 当前行 123：https://dieyusp.tmall.com	Tmall	959
+2016-11-08 12:25:27 [main:3658862] - [DEBUG] 此店铺找到 80 件商品
+2016-11-08 12:25:27 [main:3658863] - [DEBUG] 当前行 124：https://zhoujunji.tmall.com	Tmall	10945
+2016-11-08 12:25:32 [main:3664148] - [DEBUG] 此店铺找到 78 件商品
+2016-11-08 12:25:32 [main:3664148] - [DEBUG] 当前行 125：https://shunfashipin.tmall.com	Tmall	9896
+2016-11-08 12:25:35 [main:3667069] - [DEBUG] 此店铺找到 69 件商品
+2016-11-08 12:25:35 [main:3667071] - [DEBUG] 当前行 126：https://hehuasp.tmall.com	Tmall	1322
+2016-11-08 12:26:08 [main:3700162] - [DEBUG] 此店铺找到 40 件商品
+2016-11-08 12:26:08 [main:3700162] - [DEBUG] 当前行 127：https://badinghong.tmall.com	Tmall	18145
+2016-11-08 12:26:11 [main:3703420] - [DEBUG] 此店铺找到 56 件商品
+2016-11-08 12:26:11 [main:3703420] - [DEBUG] 当前行 128：https://lazhidao.tmall.com	Tmall	16240
+2016-11-08 12:26:13 [main:3705667] - [DEBUG] 此店铺找到 24 件商品
+2016-11-08 12:26:13 [main:3705667] - [DEBUG] 当前行 129：https://penglesp.tmall.com	Tmall	2162
+2016-11-08 12:26:19 [main:3710933] - [DEBUG] 此店铺找到 74 件商品
+2016-11-08 12:26:19 [main:3710933] - [DEBUG] 当前行 130：https://keyisp.tmall.com	Tmall	1648
+2016-11-08 12:26:36 [main:3728669] - [DEBUG] 此店铺找到 379 件商品
+2016-11-08 12:26:36 [main:3728669] - [DEBUG] 当前行 131：https://zhangyazishipin.tmall.com	Tmall	13650
+2016-11-08 12:26:39 [main:3730844] - [DEBUG] 此店铺找到 7 件商品
+2016-11-08 12:26:39 [main:3730844] - [DEBUG] 当前行 132：https://zhimaguandaishu.tmall.com	Tmall	19351
+2016-11-08 12:26:41 [main:3733570] - [DEBUG] 此店铺找到 51 件商品
+2016-11-08 12:26:41 [main:3733570] - [DEBUG] 当前行 133：https://bazhensp.tmall.com	Tmall	545
+2016-11-08 12:26:54 [main:3746534] - [DEBUG] 此店铺找到 280 件商品
+2016-11-08 12:26:54 [main:3746534] - [DEBUG] 当前行 134：https://yutanghao.tmall.com	Tmall	18577
+2016-11-08 12:26:57 [main:3749008] - [DEBUG] 此店铺找到 35 件商品
+2016-11-08 12:26:57 [main:3749008] - [DEBUG] 当前行 135：https://mxysp.tmall.com	Tmall	2028
+2016-11-08 12:26:59 [main:3751646] - [DEBUG] 此店铺找到 33 件商品
+2016-11-08 12:26:59 [main:3751646] - [DEBUG] 当前行 136：https://yonghaosp.tmall.com	Tmall	13307
+2016-11-08 12:27:02 [main:3754001] - [DEBUG] 此店铺找到 48 件商品
+2016-11-08 12:27:02 [main:3754001] - [DEBUG] 当前行 137：https://huangchaosp.tmall.com	Tmall	1404
+2016-11-08 12:27:04 [main:3756521] - [DEBUG] 此店铺找到 35 件商品
+2016-11-08 12:27:04 [main:3756521] - [DEBUG] 当前行 138：https://zlysp.tmall.com	Tmall	10987
+2016-11-08 12:27:07 [main:3759068] - [DEBUG] 此店铺找到 12 件商品
+2016-11-08 12:27:07 [main:3759068] - [DEBUG] 当前行 139：https://yanzhousp.tmall.com	Tmall	10614
+2016-11-08 12:27:14 [main:3765787] - [DEBUG] 此店铺找到 110 件商品
+2016-11-08 12:27:14 [main:3765788] - [DEBUG] 当前行 140：https://yashusp.tmall.com	Tmall	10621
+2016-11-08 12:27:17 [main:3768817] - [DEBUG] 此店铺找到 19 件商品
+2016-11-08 12:27:17 [main:3768818] - [DEBUG] 当前行 141：https://yqsp.tmall.com	Tmall	14906
+2016-11-08 12:27:29 [main:3780826] - [DEBUG] 此店铺找到 60 件商品
+2016-11-08 12:27:29 [main:3780827] - [DEBUG] 当前行 142：https://yishengyuansp.tmall.com	Tmall	14918
+2016-11-08 12:27:32 [main:3784056] - [DEBUG] 此店铺找到 16 件商品
+2016-11-08 12:27:32 [main:3784057] - [DEBUG] 当前行 143：https://sijie.tmall.com	Tmall	9907
+2016-11-08 12:27:36 [main:3787832] - [DEBUG] 此店铺找到 27 件商品
+2016-11-08 12:27:36 [main:3787832] - [DEBUG] 当前行 144：https://bafangpin.tmall.com	Tmall	17231
+2016-11-08 12:27:39 [main:3791136] - [DEBUG] 此店铺找到 17 件商品
+2016-11-08 12:27:39 [main:3791136] - [DEBUG] 当前行 145：https://sandingsp.tmall.com	Tmall	15546
+2016-11-08 12:27:44 [main:3795825] - [DEBUG] 此店铺找到 51 件商品
+2016-11-08 12:27:44 [main:3795825] - [DEBUG] 当前行 146：https://qishuang.tmall.com	Tmall	18103
+2016-11-08 12:27:57 [main:3809377] - [DEBUG] 当前行 147：https://shanyekongjian.tmall.com	Tmall	2402
+2016-11-08 12:28:01 [main:3813176] - [DEBUG] 此店铺找到 15 件商品
+2016-11-08 12:28:01 [main:3813176] - [DEBUG] 当前行 148：https://hong99.tmall.com	Tmall	1362
+2016-11-08 12:28:05 [main:3817266] - [DEBUG] 当前行 149：https://maishizhaisp.tmall.com	Tmall	16025
+2016-11-08 12:28:09 [main:3820817] - [DEBUG] 此店铺找到 51 件商品
+2016-11-08 12:28:09 [main:3820817] - [DEBUG] 当前行 150：https://taolasp.tmall.com	Tmall	10054
+2016-11-08 12:28:43 [main:3855655] - [DEBUG] 此店铺找到 63 件商品
+2016-11-08 12:28:43 [main:3855675] - [DEBUG] 当前行 151：https://ytlsp.tmall.com	Tmall	10789
+2016-11-08 12:28:49 [main:3861358] - [DEBUG] 此店铺找到 63 件商品
+2016-11-08 12:28:49 [main:3861358] - [DEBUG] 当前行 152：https://zcsp.tmall.com	Tmall	10871
+2016-11-08 12:28:58 [main:3870352] - [DEBUG] 此店铺找到 67 件商品
+2016-11-08 12:28:58 [main:3870352] - [DEBUG] 当前行 153：https://cqcycy.tmall.com	Tmall	773
+2016-11-08 12:29:03 [main:3875417] - [DEBUG] 此店铺找到 58 件商品
+2016-11-08 12:29:03 [main:3875417] - [DEBUG] 当前行 154：https://xingfuzuobiao.tmall.com	Tmall	17027
+2016-11-08 12:32:30 [main:4081900] - [DEBUG] 此店铺找到 24 件商品
+2016-11-08 12:32:30 [main:4081905] - [DEBUG] 当前行 155：https://biandanlaotou.tmall.com	Tmall	17359
+2016-11-08 12:32:33 [main:4084851] - [DEBUG] 此店铺找到 23 件商品
+2016-11-08 12:32:33 [main:4084852] - [DEBUG] 当前行 156：https://cqtzsp.tmall.com	Tmall	827
+2016-11-08 12:35:48 [main:4280384] - [DEBUG] 此店铺找到 104 件商品
+2016-11-08 12:35:48 [main:4280385] - [DEBUG] 当前行 157：https://wulingyifengsp.tmall.com	Tmall	10316
+2016-11-08 12:35:52 [main:4284035] - [DEBUG] 此店铺找到 9 件商品
+2016-11-08 12:35:52 [main:4284035] - [DEBUG] 当前行 158：https://maogesp.tmall.com	Tmall	16106
+2016-11-08 12:35:57 [main:4289682] - [DEBUG] 此店铺找到 37 件商品
+2016-11-08 12:35:57 [main:4289682] - [DEBUG] 当前行 159：https://paisenbai.tmall.com	Tmall	14041
+2016-11-08 12:36:03 [main:4295449] - [DEBUG] 此店铺找到 9 件商品
+2016-11-08 12:36:03 [main:4295450] - [DEBUG] 当前行 160：https://yuxizhangeer.tmall.com	Tmall	15101
+2016-11-08 12:36:06 [main:4298387] - [DEBUG] 当前行 161：https://mldnsp.tmall.com	Tmall	15508
+2016-11-08 12:36:20 [main:4312340] - [DEBUG] 此店铺找到 27 件商品
+2016-11-08 12:36:20 [main:4312340] - [DEBUG] 当前行 162：https://pdshipin.tmall.com	Tmall	2158
+2016-11-08 12:36:26 [main:4318620] - [DEBUG] 此店铺找到 78 件商品
+2016-11-08 12:36:26 [main:4318620] - [DEBUG] 当前行 163：https://kaidaixiao.tmall.com	Tmall	18075
+2016-11-08 12:36:29 [main:4321396] - [DEBUG] 此店铺找到 32 件商品
+2016-11-08 12:36:29 [main:4321396] - [DEBUG] 当前行 164：https://ranshifu.tmall.com	Tmall	21886
+2016-11-08 12:36:37 [main:4329478] - [DEBUG] 此店铺找到 68 件商品
+2016-11-08 12:36:37 [main:4329478] - [DEBUG] 当前行 165：https://shanchengpai.tmall.com	Tmall	18119
+2016-11-08 12:36:40 [main:4332119] - [DEBUG] 此店铺找到 36 件商品
+2016-11-08 12:36:40 [main:4332120] - [DEBUG] 当前行 166：https://adouyidou.tmall.com	Tmall	15314
+2016-11-08 12:36:43 [main:4334837] - [DEBUG] 此店铺找到 36 件商品
+2016-11-08 12:36:43 [main:4334837] - [DEBUG] 当前行 167：https://zjcfsp.tmall.com	Tmall	10972
+2016-11-08 12:36:45 [main:4337593] - [DEBUG] 此店铺找到 37 件商品
+2016-11-08 12:36:45 [main:4337593] - [DEBUG] 当前行 168：https://meixiangyuan.tmall.com	Tmall	16342
+2016-11-08 12:36:59 [main:4351355] - [DEBUG] 此店铺找到 9 件商品
+2016-11-08 12:36:59 [main:4351355] - [DEBUG] 当前行 169：https://yuyangsp.tmall.com	Tmall	10831
+2016-11-08 12:37:02 [main:4353880] - [DEBUG] 此店铺找到 14 件商品
+2016-11-08 12:37:02 [main:4353880] - [DEBUG] 当前行 170：https://guzhouwancheng.tmall.com	Tmall	19015
+2016-11-08 12:37:05 [main:4356860] - [DEBUG] 此店铺找到 21 件商品
+2016-11-08 12:37:05 [main:4356860] - [DEBUG] 当前行 171：https://dzsp.tmall.com	Tmall	18903
+2016-11-08 12:37:10 [main:4362305] - [DEBUG] 此店铺找到 78 件商品
+2016-11-08 12:37:10 [main:4362306] - [DEBUG] 当前行 172：https://lebangbang.tmall.com	Tmall	18091
+2016-11-08 12:37:14 [main:4365966] - [DEBUG] 此店铺找到 5 件商品
+2016-11-08 12:37:14 [main:4365967] - [DEBUG] 当前行 173：https://miaopinji.tmall.com	Tmall	1955
+2016-11-08 12:37:18 [main:4370000] - [DEBUG] 此店铺找到 24 件商品
+2016-11-08 12:37:18 [main:4370000] - [DEBUG] 当前行 174：https://songdama.tmall.com	Tmall	18105
+2016-11-08 12:37:21 [main:4373014] - [DEBUG] 此店铺找到 11 件商品
+2016-11-08 12:37:21 [main:4373014] - [DEBUG] 当前行 175：https://wuyangsp.tmall.com	Tmall	18136
+2016-11-08 12:37:23 [main:4375328] - [DEBUG] 此店铺找到 9 件商品
+2016-11-08 12:37:23 [main:4375328] - [DEBUG] 当前行 176：https://diehuapai.tmall.com	Tmall	15013
+2016-11-08 12:37:25 [main:4377686] - [DEBUG] 此店铺找到 21 件商品
+2016-11-08 12:37:25 [main:4377686] - [DEBUG] 当前行 177：https://dxlcy.tmall.com	Tmall	1012
+2016-11-08 12:37:41 [main:4392924] - [DEBUG] 此店铺找到 200 件商品
+2016-11-08 12:37:41 [main:4392924] - [DEBUG] 当前行 178：https://carefullypickofnoodle.tmall.com	Tmall	19832
+2016-11-08 12:37:44 [main:4395843] - [DEBUG] 此店铺找到 15 件商品
+2016-11-08 12:37:44 [main:4395843] - [DEBUG] 当前行 179：https://yuzhensp.tmall.com	Tmall	10835
+2016-11-08 12:37:46 [main:4398381] - [DEBUG] 此店铺找到 51 件商品
+2016-11-08 12:37:46 [main:4398382] - [DEBUG] 当前行 180：https://douke.tmall.com	Tmall	14916
+2016-11-08 12:37:48 [main:4400582] - [DEBUG] 此店铺找到 3 件商品
+2016-11-08 12:37:48 [main:4400582] - [DEBUG] 当前行 181：https://mixuesp.tmall.com	Tmall	1972
+2016-11-08 12:37:55 [main:4407126] - [DEBUG] 此店铺找到 82 件商品
+2016-11-08 12:37:55 [main:4407126] - [DEBUG] 当前行 182：https://nianrun.tmall.com	Tmall	18897
+2016-11-08 12:39:41 [main:4513222] - [DEBUG] 此店铺找到 7 件商品
+2016-11-08 12:39:41 [main:4513222] - [DEBUG] 当前行 183：https://baishiyi.tmall.com	Tmall	521
+2016-11-08 12:39:44 [main:4515779] - [DEBUG] 此店铺找到 41 件商品
+2016-11-08 12:39:44 [main:4515779] - [DEBUG] 当前行 184：https://weibashi.tmall.com	Tmall	18528
+2016-11-08 12:39:46 [main:4518272] - [DEBUG] 此店铺找到 31 件商品
+2016-11-08 12:39:46 [main:4518272] - [DEBUG] 当前行 185：https://bafangpinchenwenjian.tmall.com	Tmall	19521
+2016-11-08 12:39:48 [main:4520515] - [DEBUG] 此店铺找到 18 件商品
+2016-11-08 12:39:48 [main:4520515] - [DEBUG] 当前行 186：https://wulingshanzhen.tmall.com	Tmall	19195
+2016-11-08 12:39:51 [main:4522998] - [DEBUG] 此店铺找到 23 件商品
+2016-11-08 12:39:51 [main:4522999] - [DEBUG] 当前行 187：https://yongjian.tmall.com	Tmall	14304
+2016-11-08 12:39:54 [main:4525830] - [DEBUG] 此店铺找到 37 件商品
+2016-11-08 12:39:54 [main:4525830] - [DEBUG] 当前行 188：https://chenwenjian.tmall.com	Tmall	18839
+2016-11-08 12:39:56 [main:4528117] - [DEBUG] 此店铺找到 1 件商品
+2016-11-08 12:39:56 [main:4528117] - [DEBUG] 当前行 189：https://yfcy.tmall.com	Tmall	10645
+2016-11-08 12:39:58 [main:4530752] - [DEBUG] 此店铺找到 38 件商品
+2016-11-08 12:39:58 [main:4530752] - [DEBUG] 当前行 190：https://bawangfusp.tmall.com	Tmall	541
+2016-11-08 12:40:01 [main:4533086] - [DEBUG] 此店铺找到 8 件商品
+2016-11-08 12:40:01 [main:4533086] - [DEBUG] 当前行 191：https://yangyangsp.tmall.com	Tmall	10608
+2016-11-08 12:40:04 [main:4536525] - [DEBUG] 此店铺找到 16 件商品
+2016-11-08 12:40:04 [main:4536525] - [DEBUG] 当前行 192：https://baowosp.tmall.com	Tmall	534
+2016-11-08 12:40:07 [main:4539715] - [DEBUG] 此店铺找到 74 件商品
+2016-11-08 12:40:07 [main:4539715] - [DEBUG] 当前行 193：https://yyqjsp.tmall.com	Tmall	10850
+2016-11-08 12:40:10 [main:4542529] - [DEBUG] 此店铺找到 56 件商品
+2016-11-08 12:40:10 [main:4542530] - [DEBUG] 当前行 194：https://xiangtanzi.tmall.com	Tmall	10392
+2016-11-08 12:40:24 [main:4556077] - [DEBUG] 此店铺找到 17 件商品
+2016-11-08 12:40:24 [main:4556152] - [DEBUG] 当前行 195：https://awjsp.tmall.com	Tmall	22602
+2016-11-08 12:40:26 [main:4558654] - [DEBUG] 此店铺找到 32 件商品
+2016-11-08 12:40:26 [main:4558655] - [DEBUG] 当前行 196：https://rxssp.tmall.com	Tmall	16263
+2016-11-08 12:40:31 [main:4563451] - [DEBUG] 此店铺找到 87 件商品
+2016-11-08 12:40:31 [main:4563451] - [DEBUG] 当前行 197：https://huaruisp.tmall.com	Tmall	1414
+2016-11-08 12:40:34 [main:4565841] - [DEBUG] 此店铺找到 11 件商品
+2016-11-08 12:40:34 [main:4565841] - [DEBUG] 当前行 198：https://shudaonan.tmall.com	Tmall	19723
+2016-11-08 12:40:36 [main:4568120] - [DEBUG] 此店铺找到 19 件商品
+2016-11-08 12:40:36 [main:4568120] - [DEBUG] 当前行 199：https://tianxingzhai.tmall.com	Tmall	16414
+2016-11-08 12:40:38 [main:4570232] - [DEBUG] 此店铺找到 11 件商品
+2016-11-08 12:40:38 [main:4570232] - [DEBUG] 当前行 200：https://douqusp.tmall.com	Tmall	988
+2016-11-08 12:40:40 [main:4572296] - [DEBUG] 此店铺找到 16 件商品
+2016-11-08 12:40:40 [main:4572296] - [DEBUG] 当前行 201：https://ybsljl.taobao.com/	TaoBao	11826
+2016-11-08 12:40:47 [main:4579384] - [DEBUG] 此店铺找到 27 件商品
+2016-11-08 12:40:47 [main:4579384] - [DEBUG] 当前行 202：https://shop106024997.taobao.com/	TaoBao	11151
+2016-11-08 12:40:51 [main:4583234] - [DEBUG] 此店铺找到 32 件商品
+2016-11-08 12:40:51 [main:4583235] - [DEBUG] 当前行 203：https://cdypsp.taobao.com/	TaoBao	658
+2016-11-08 12:41:18 [main:4609934] - [DEBUG] 此店铺找到 168 件商品
+2016-11-08 12:41:18 [main:4609934] - [DEBUG] 当前行 204：https://shop126873678.taobao.com/	TaoBao	5857
+2016-11-08 12:41:37 [main:4629506] - [DEBUG] 当前行 205：https://bestsauce.taobao.com/	TaoBao	570
+2016-11-08 12:42:51 [main:4702792] - [DEBUG] 当前行 205：https://bestsauce.taobao.com/	TaoBao	570
+2016-11-08 12:44:06 [main:4778144] - [DEBUG] 当前行 205：https://bestsauce.taobao.com/	TaoBao	570
+2016-11-08 12:45:24 [main:4856546] - [DEBUG] 当前行 205：https://bestsauce.taobao.com/	TaoBao	570
+2016-11-08 12:46:26 [main:4918649] - [DEBUG] 当前行 205：https://bestsauce.taobao.com/	TaoBao	570
+2016-11-08 12:47:15 [main:4966923] - [DEBUG] 此店铺找到 384 件商品
+2016-11-08 12:47:15 [main:4966923] - [DEBUG] 当前行 206：https://shop71221711.taobao.com/	TaoBao	11961
+2016-11-08 12:47:43 [main:4995384] - [DEBUG] 当前行 206：https://shop71221711.taobao.com/	TaoBao	11961
+2016-11-08 12:49:39 [main:5111690] - [DEBUG] 此店铺找到 432 件商品
+2016-11-08 12:49:39 [main:5111691] - [DEBUG] 当前行 207：https://shop111801669.taobao.com/	TaoBao	3820
+2016-11-08 12:49:43 [main:5115102] - [DEBUG] 此店铺找到 3 件商品
+2016-11-08 12:49:43 [main:5115102] - [DEBUG] 当前行 208：https://sjcq.taobao.com/	TaoBao	9918
+2016-11-08 12:50:08 [main:5140360] - [DEBUG] 此店铺找到 48 件商品
+2016-11-08 12:50:08 [main:5140360] - [DEBUG] 当前行 209：https://shop116249244.taobao.com/	TaoBao	11344
+2016-11-08 12:50:14 [main:5146335] - [DEBUG] 此店铺找到 72 件商品
+2016-11-08 12:50:14 [main:5146335] - [DEBUG] 当前行 210：https://suibianchi.taobao.com/	TaoBao	11464
+2016-11-08 12:51:50 [main:5241841] - [DEBUG] 此店铺找到 169 件商品
+2016-11-08 12:51:50 [main:5241841] - [DEBUG] 当前行 211：https://shop33820401.taobao.com/	TaoBao	11613
+2016-11-08 12:52:19 [main:5270818] - [DEBUG] 此店铺找到 62 件商品
+2016-11-08 12:52:19 [main:5270818] - [DEBUG] 当前行 212：https://chenhanyou.taobao.com/	TaoBao	11852
+2016-11-08 12:53:12 [main:5324080] - [DEBUG] 此店铺找到 146 件商品
+2016-11-08 12:53:12 [main:5324080] - [DEBUG] 当前行 213：https://shop113952091.taobao.com/	TaoBao	11300
+2016-11-08 12:54:23 [main:5394777] - [DEBUG] 此店铺找到 167 件商品
+2016-11-08 12:54:23 [main:5394777] - [DEBUG] 当前行 214：https://shop58131270.taobao.com/	TaoBao	12868
+2016-11-08 12:54:33 [main:5405040] - [DEBUG] 此店铺找到 28 件商品
+2016-11-08 12:54:33 [main:5405040] - [DEBUG] 当前行 215：https://shushengfood.taobao.com/	TaoBao	11615
+2016-11-08 12:54:52 [main:5424403] - [DEBUG] 当前行 216：https://shanghaijinyang.taobao.com/	TaoBao	2386
+2016-11-08 12:55:30 [main:5462102] - [DEBUG] 此店铺找到 2 件商品
+2016-11-08 12:55:30 [main:5462102] - [DEBUG] 当前行 217：https://shop64467902.taobao.com/	TaoBao	21520
+2016-11-08 12:55:51 [main:5483081] - [DEBUG] 当前行 218：https://jiaweiliangpin.taobao.com/	TaoBao	12534
+2016-11-08 12:58:32 [main:5644484] - [DEBUG] 此店铺找到 382 件商品
+2016-11-08 12:58:32 [main:5644484] - [DEBUG] 当前行 219：https://abcdhan.taobao.com/	TaoBao	418
+2016-11-08 13:04:08 [main:5980119] - [DEBUG] 当前行 219：https://abcdhan.taobao.com/	TaoBao	418
+2016-11-08 13:06:23 [main:6114812] - [DEBUG] 此店铺找到 412 件商品
+2016-11-08 13:06:23 [main:6114817] - [DEBUG] 当前行 220：https://shop148821052.taobao.com/	TaoBao	18307
+2016-11-08 13:08:39 [main:6250906] - [DEBUG] 此店铺找到 195 件商品
+2016-11-08 13:08:39 [main:6250906] - [DEBUG] 当前行 221：https://chengxinshipin.taobao.com/	TaoBao	11779
+2016-11-08 13:09:51 [main:6323024] - [DEBUG] 此店铺找到 340 件商品
+2016-11-08 13:09:51 [main:6323024] - [DEBUG] 当前行 222：https://shop105308392.taobao.com/	TaoBao	13992
+2016-11-08 13:09:56 [main:6328681] - [DEBUG] 此店铺找到 30 件商品
+2016-11-08 13:09:56 [main:6328681] - [DEBUG] 当前行 223：https://zjt90.taobao.com/	TaoBao	10980
+2016-11-08 13:10:48 [main:6380699] - [DEBUG] 此店铺找到 356 件商品
+2016-11-08 13:10:48 [main:6380699] - [DEBUG] 当前行 224：https://chuanwangsy.taobao.com/	TaoBao	723
+2016-11-08 13:14:10 [main:6582644] - [DEBUG] 此店铺找到 1057 件商品
+2016-11-08 13:14:10 [main:6582645] - [DEBUG] 当前行 225：https://healthyfoods2011.taobao.com/	TaoBao	1320
+2016-11-08 13:15:19 [main:6650761] - [DEBUG] 此店铺找到 240 件商品
+2016-11-08 13:15:19 [main:6650762] - [DEBUG] 当前行 226：https://xinerlshi.taobao.com/	TaoBao	11079
+2016-11-08 13:15:26 [main:6658125] - [DEBUG] 此店铺找到 44 件商品
+2016-11-08 13:15:26 [main:6658125] - [DEBUG] 当前行 227：https://zhenghongshanghai.taobao.com/	TaoBao	10914
+2016-11-08 13:17:52 [main:6803929] - [DEBUG] 此店铺找到 703 件商品
+2016-11-08 13:17:52 [main:6803930] - [DEBUG] 当前行 228：https://shop109976913.taobao.com/	TaoBao	11233
+2016-11-08 13:18:02 [main:6813805] - [DEBUG] 当前行 229：https://xixils.taobao.com/	TaoBao	10495
+2016-11-08 13:19:34 [main:6906012] - [DEBUG] 此店铺找到 334 件商品
+2016-11-08 13:19:34 [main:6906012] - [DEBUG] 当前行 230：https://shop106641259.taobao.com/	TaoBao	2995
+2016-11-08 13:20:13 [main:6945051] - [DEBUG] 此店铺找到 96 件商品
+2016-11-08 13:20:13 [main:6945051] - [DEBUG] 当前行 231：https://shop70067110.taobao.com/	TaoBao	9630
+2016-11-08 13:20:52 [main:6984153] - [DEBUG] 此店铺找到 134 件商品
+2016-11-08 13:20:52 [main:6984153] - [DEBUG] 当前行 232：https://shop61363512.taobao.com/	TaoBao	12431
+2016-11-08 13:21:00 [main:6992721] - [DEBUG] 此店铺找到 1 件商品
+2016-11-08 13:21:00 [main:6992722] - [DEBUG] 当前行 233：https://liuyifood.taobao.com/	TaoBao	1788
+2016-11-08 13:22:03 [main:7055078] - [DEBUG] 此店铺找到 486 件商品
+2016-11-08 13:22:03 [main:7055079] - [DEBUG] 当前行 234：https://ttwu.taobao.com/	TaoBao	11619
+2016-11-08 13:22:46 [main:7098084] - [DEBUG] 此店铺找到 196 件商品
+2016-11-08 13:22:46 [main:7098084] - [DEBUG] 当前行 235：https://meimiaoshike.taobao.com/	TaoBao	1928
+2016-11-08 13:24:15 [main:7187106] - [DEBUG] 此店铺找到 584 件商品
+2016-11-08 13:24:15 [main:7187107] - [DEBUG] 当前行 236：https://shop106014517.taobao.com/	TaoBao	2927
+2016-11-08 13:24:47 [main:7219653] - [DEBUG] 此店铺找到 208 件商品
+2016-11-08 13:24:47 [main:7219654] - [DEBUG] 当前行 237：https://jjroufu.taobao.com/	TaoBao	11695
+2016-11-08 13:25:46 [main:7278069] - [DEBUG] 此店铺找到 391 件商品
+2016-11-08 13:25:46 [main:7278069] - [DEBUG] 当前行 238：https://shop127925255.taobao.com/	TaoBao	6020
+2016-11-08 13:26:38 [main:7330235] - [DEBUG] 此店铺找到 385 件商品
+2016-11-08 13:26:38 [main:7330236] - [DEBUG] 当前行 239：https://178241918.taobao.com/	TaoBao	11713
+2016-11-08 13:26:59 [main:7351495] - [DEBUG] 此店铺找到 188 件商品
+2016-11-08 13:26:59 [main:7351495] - [DEBUG] 当前行 240：https://shop145546400.taobao.com/	TaoBao	18110
+2016-11-08 13:30:07 [main:7539675] - [DEBUG] 此店铺找到 1547 件商品
+2016-11-08 13:30:07 [main:7539675] - [DEBUG] 当前行 241：https://shop104478047.taobao.com/	TaoBao	13834
+2016-11-08 13:31:08 [main:7600308] - [DEBUG] 此店铺找到 471 件商品
+2016-11-08 13:31:08 [main:7600309] - [DEBUG] 当前行 242：https://laxiangfeng.taobao.com/	TaoBao	11988
+2016-11-08 13:31:38 [main:7630234] - [DEBUG] 此店铺找到 149 件商品
+2016-11-08 13:31:38 [main:7630234] - [DEBUG] 当前行 243：https://shop109366511.taobao.com/	TaoBao	3410
+2016-11-08 13:33:30 [main:7742476] - [DEBUG] 此店铺找到 587 件商品
+2016-11-08 13:33:30 [main:7742476] - [DEBUG] 当前行 244：https://bxjfood.taobao.com/	TaoBao	11058
+2016-11-08 13:33:46 [main:7758073] - [DEBUG] 此店铺找到 161 件商品
+2016-11-08 13:33:46 [main:7758073] - [DEBUG] 当前行 245：https://shop141662070.taobao.com/	TaoBao	17626
+2016-11-08 13:34:30 [main:7801999] - [DEBUG] 此店铺找到 80 件商品
+2016-11-08 13:34:30 [main:7801999] - [DEBUG] 当前行 246：https://shop109031157.taobao.com/	TaoBao	11213
+2016-11-08 13:34:45 [main:7816979] - [DEBUG] 此店铺找到 142 件商品
+2016-11-08 13:34:45 [main:7816980] - [DEBUG] 当前行 247：https://salted-egg.taobao.com/	TaoBao	11973
+2016-11-08 13:34:55 [main:7827629] - [DEBUG] 此店铺找到 89 件商品
+2016-11-08 13:34:55 [main:7827630] - [DEBUG] 当前行 248：https://mytthz.taobao.com/	TaoBao	11800
+2016-11-08 13:34:59 [main:7830763] - [DEBUG] 此店铺找到 18 件商品
+2016-11-08 13:34:59 [main:7830763] - [DEBUG] 当前行 249：https://shop109696849.taobao.com/	TaoBao	3469
+2016-11-08 13:35:41 [main:7873253] - [DEBUG] 此店铺找到 142 件商品
+2016-11-08 13:35:41 [main:7873253] - [DEBUG] 当前行 250：https://shop61841454.taobao.com/	TaoBao	12436
+2016-11-08 13:36:20 [main:7912011] - [DEBUG] 此店铺找到 243 件商品
+2016-11-08 13:36:20 [main:7912011] - [DEBUG] 当前行 251：https://shop108232584.taobao.com/	TaoBao	3213
+2016-11-08 13:36:28 [main:7920534] - [DEBUG] 此店铺找到 63 件商品
+2016-11-08 13:36:28 [main:7920536] - [DEBUG] 当前行 252：https://shejianfu.taobao.com/	TaoBao	2410
+2016-11-08 13:37:10 [main:7962090] - [DEBUG] 此店铺找到 276 件商品
+2016-11-08 13:37:10 [main:7962090] - [DEBUG] 当前行 253：https://chmsd.taobao.com/	TaoBao	710
+2016-11-08 13:42:59 [main:8311227] - [DEBUG] 此店铺找到 422 件商品
+2016-11-08 13:42:59 [main:8311254] - [DEBUG] 当前行 254：https://meiwei517.taobao.com/	TaoBao	1933
+2016-11-08 13:53:16 [main:8928472] - [DEBUG] 此店铺找到 528 件商品
+2016-11-08 13:53:16 [main:8928472] - [DEBUG] 当前行 255：https://shop107600309.taobao.com/	TaoBao	3107
+2016-11-08 13:53:28 [main:8940556] - [DEBUG] 当前行 256：https://shop106022595.taobao.com/	TaoBao	2929
+2016-11-08 13:53:43 [main:8955421] - [DEBUG] 当前行 257：https://huangjgg.taobao.com/	TaoBao	11041
+2016-11-08 13:58:58 [main:9270519] - [DEBUG] 此店铺找到 321 件商品
+2016-11-08 13:58:58 [main:9270520] - [DEBUG] 当前行 258：https://shop103736541.taobao.com/	TaoBao	11106
+2016-11-08 13:59:07 [main:9278836] - [DEBUG] 此店铺找到 52 件商品
+2016-11-08 13:59:07 [main:9278836] - [DEBUG] 当前行 259：https://shop121919197.taobao.com/	TaoBao	11405
+2016-11-08 13:59:14 [main:9286181] - [DEBUG] 此店铺找到 69 件商品
+2016-11-08 13:59:14 [main:9286181] - [DEBUG] 当前行 260：https://shop61054725.taobao.com/	TaoBao	21104
+2016-11-08 13:59:21 [main:9293485] - [DEBUG] 此店铺找到 53 件商品
+2016-11-08 13:59:21 [main:9293500] - [DEBUG] 当前行 261：https://18029199005.taobao.com/	TaoBao	129
+2016-11-08 13:59:41 [main:9313327] - [DEBUG] 当前行 262：https://shop112036509.taobao.com/	TaoBao	3860
+2016-11-08 13:59:48 [main:9320116] - [DEBUG] 此店铺找到 66 件商品
+2016-11-08 13:59:48 [main:9320116] - [DEBUG] 当前行 263：https://hxycx.taobao.com/	TaoBao	1449
+2016-11-08 13:59:59 [main:9330843] - [DEBUG] 此店铺找到 24 件商品
+2016-11-08 13:59:59 [main:9330843] - [DEBUG] 当前行 264：https://shop63543048.taobao.com/	TaoBao	11831
+2016-11-08 14:00:12 [main:9343854] - [DEBUG] 此店铺找到 24 件商品
+2016-11-08 14:00:12 [main:9343854] - [DEBUG] 当前行 265：https://shop61392807.taobao.com/	TaoBao	9156
+2016-11-08 14:00:46 [main:9377949] - [DEBUG] 此店铺找到 120 件商品
+2016-11-08 14:00:46 [main:9377949] - [DEBUG] 当前行 266：https://zhuandao.taobao.com/	TaoBao	20051
+2016-11-08 14:00:48 [main:9380316] - [DEBUG] 此店铺找到 15 件商品
+2016-11-08 14:00:48 [main:9380316] - [DEBUG] 当前行 267：https://zbdxf.taobao.com/	TaoBao	11824
+2016-11-08 14:01:00 [main:9391938] - [DEBUG] 此店铺找到 120 件商品
+2016-11-08 14:01:00 [main:9391938] - [DEBUG] 当前行 268：https://shmsw.taobao.com/	TaoBao	11783
+2016-11-08 14:01:15 [main:9407187] - [DEBUG] 此店铺找到 72 件商品
+2016-11-08 14:01:15 [main:9407187] - [DEBUG] 当前行 269：https://hailabaichuan.taobao.com/	TaoBao	1270
+2016-11-08 14:01:31 [main:9423365] - [DEBUG] 此店铺找到 166 件商品
+2016-11-08 14:01:31 [main:9423365] - [DEBUG] 当前行 270：https://yplx.taobao.com/	TaoBao	10773
+2016-11-08 14:02:00 [main:9451793] - [DEBUG] 此店铺找到 196 件商品
+2016-11-08 14:02:00 [main:9451793] - [DEBUG] 当前行 271：https://shop116017797.taobao.com/	TaoBao	11337
+2016-11-08 14:02:17 [main:9468940] - [DEBUG] 此店铺找到 96 件商品
+2016-11-08 14:02:17 [main:9468940] - [DEBUG] 当前行 272：https://shop103978571.taobao.com/	TaoBao	2781
+2016-11-08 14:02:23 [main:9475374] - [DEBUG] 此店铺找到 62 件商品
+2016-11-08 14:02:23 [main:9475374] - [DEBUG] 当前行 273：https://rao1011888.taobao.com/	TaoBao	2293
+2016-11-08 14:03:18 [main:9530429] - [DEBUG] 此店铺找到 648 件商品
+2016-11-08 14:03:18 [main:9530430] - [DEBUG] 当前行 274：https://laiyidian.taobao.com/	TaoBao	11712
+2016-11-08 14:04:02 [main:9573874] - [DEBUG] 此店铺找到 437 件商品
+2016-11-08 14:04:02 [main:9573874] - [DEBUG] 当前行 275：https://1chi.taobao.com/	TaoBao	11882
+2016-11-08 14:06:45 [main:9737465] - [DEBUG] 此店铺找到 1618 件商品
+2016-11-08 14:06:45 [main:9737466] - [DEBUG] 当前行 276：https://517xiaochi.taobao.com/	TaoBao	11767
+2016-11-08 14:07:32 [main:9784407] - [DEBUG] 此店铺找到 540 件商品
+2016-11-08 14:07:32 [main:9784407] - [DEBUG] 当前行 277：https://chanzuiwu.taobao.com/	TaoBao	11791
+2016-11-08 14:07:45 [main:9797722] - [DEBUG] 此店铺找到 131 件商品
+2016-11-08 14:07:45 [main:9797732] - [DEBUG] 当前行 278：https://shop121660013.taobao.com/	TaoBao	5317
+2016-11-08 14:08:08 [main:9820147] - [DEBUG] 此店铺找到 232 件商品
+2016-11-08 14:08:08 [main:9820147] - [DEBUG] 当前行 279：https://shop71514942.taobao.com/	TaoBao	9731
+2016-11-08 14:08:11 [main:9822850] - [DEBUG] 此店铺找到 3 件商品
+2016-11-08 14:08:11 [main:9822850] - [DEBUG] 当前行 280：https://chi8.taobao.com/	TaoBao	11635
+2016-11-08 14:08:38 [main:9850485] - [DEBUG] 此店铺找到 243 件商品
+2016-11-08 14:08:38 [main:9850485] - [DEBUG] 当前行 281：https://shop70464018.taobao.com/	TaoBao	9659
+2016-11-08 14:09:13 [main:9885687] - [DEBUG] 此店铺找到 242 件商品
+2016-11-08 14:09:13 [main:9885688] - [DEBUG] 当前行 282：https://lxz1994.taobao.com/	TaoBao	1861
+2016-11-08 14:09:55 [main:9927652] - [DEBUG] 此店铺找到 312 件商品
+2016-11-08 14:09:55 [main:9927653] - [DEBUG] 当前行 283：https://ruthlcf.taobao.com/	TaoBao	11787
+2016-11-08 14:10:07 [main:9938821] - [DEBUG] 此店铺找到 24 件商品
+2016-11-08 14:10:07 [main:9938821] - [DEBUG] 当前行 284：https://shop150713569.taobao.com/	TaoBao	18692
+2016-11-08 14:10:32 [main:9963824] - [DEBUG] 此店铺找到 190 件商品
+2016-11-08 14:10:32 [main:9963825] - [DEBUG] 当前行 285：https://xiaolinxiuxianshipin.taobao.com/	TaoBao	13624
+2016-11-08 14:10:59 [main:9990862] - [DEBUG] 此店铺找到 261 件商品
+2016-11-08 14:10:59 [main:9990862] - [DEBUG] 当前行 286：https://shop159686425.taobao.com/	TaoBao	19948
+2016-11-08 14:11:18 [main:10009797] - [DEBUG] 此店铺找到 72 件商品
+2016-11-08 14:11:18 [main:10009797] - [DEBUG] 当前行 287：https://shop104218939.taobao.com/	TaoBao	12102
+2016-11-08 14:11:33 [main:10025137] - [DEBUG] 此店铺找到 108 件商品
+2016-11-08 14:11:33 [main:10025137] - [DEBUG] 当前行 288：https://shop113307999.taobao.com/	TaoBao	12206
+2016-11-08 14:11:40 [main:10032404] - [DEBUG] 此店铺找到 67 件商品
+2016-11-08 14:11:40 [main:10032404] - [DEBUG] 当前行 289：https://haoshi008.taobao.com/	TaoBao	20754
+2016-11-08 14:12:19 [main:10071261] - [DEBUG] 此店铺找到 361 件商品
+2016-11-08 14:12:19 [main:10071261] - [DEBUG] 当前行 290：https://shop145305717.taobao.com/	TaoBao	8547
+2016-11-08 14:12:26 [main:10078230] - [DEBUG] 此店铺找到 70 件商品
+2016-11-08 14:12:26 [main:10078230] - [DEBUG] 当前行 291：https://shop111944575.taobao.com/	TaoBao	3843
+2016-11-08 14:12:56 [main:10107965] - [DEBUG] 此店铺找到 206 件商品
+2016-11-08 14:12:56 [main:10107965] - [DEBUG] 当前行 292：https://shop126567047.taobao.com/	TaoBao	5820
+2016-11-08 14:13:13 [main:10125208] - [DEBUG] 此店铺找到 123 件商品
+2016-11-08 14:13:13 [main:10125208] - [DEBUG] 当前行 293：https://mianyangguan.taobao.com/	TaoBao	1953
+2016-11-08 14:13:44 [main:10156276] - [DEBUG] 此店铺找到 258 件商品
+2016-11-08 14:13:44 [main:10156276] - [DEBUG] 当前行 294：https://7gegecaop.taobao.com/	TaoBao	355
+2016-11-08 14:14:40 [main:10211840] - [DEBUG] 此店铺找到 240 件商品
+2016-11-08 14:14:40 [main:10211840] - [DEBUG] 当前行 295：https://liushifood.taobao.com/	TaoBao	1786
+2016-11-08 14:15:20 [main:10252625] - [DEBUG] 此店铺找到 286 件商品
+2016-11-08 14:15:20 [main:10252626] - [DEBUG] 当前行 296：https://shop59831198.taobao.com/	TaoBao	11741
+2016-11-08 14:15:31 [main:10262950] - [DEBUG] 此店铺找到 55 件商品
+2016-11-08 14:15:31 [main:10262977] - [DEBUG] 当前行 297：https://shop64464219.taobao.com/	TaoBao	12468
+2016-11-08 14:15:58 [main:10290044] - [DEBUG] 此店铺找到 177 件商品
+2016-11-08 14:15:58 [main:10290045] - [DEBUG] 当前行 298：https://shop34325506.taobao.com/	TaoBao	11631
+2016-11-08 14:16:03 [main:10295490] - [DEBUG] 此店铺找到 3 件商品
+2016-11-08 14:16:03 [main:10295491] - [DEBUG] 当前行 299：https://shop59560340.taobao.com/	TaoBao	9056
+2016-11-08 14:16:08 [main:10300319] - [DEBUG] 此店铺找到 28 件商品
+2016-11-08 14:16:08 [main:10300319] - [DEBUG] 当前行 300：https://rongmer.taobao.com/	TaoBao	11042
+2016-11-08 14:16:20 [main:10312357] - [DEBUG] 此店铺找到 102 件商品
+2016-11-08 14:16:20 [main:10312357] - [DEBUG] 当前行 301：https://hengdusp.tmall.com	Tmall	1329
+2016-11-08 14:16:29 [main:10321718] - [DEBUG] 此店铺找到 103 件商品
+2016-11-08 14:16:29 [main:10321718] - [DEBUG] 当前行 302：https://chaoshi.tmall.com/	Tmall	3
+2016-11-08 14:16:38 [main:10330139] - [DEBUG] 当前行 303：https://chaoshi.detail.tmall.com/	Tmall	21897
+2016-11-08 14:16:46 [main:10338194] - [DEBUG] 当前行 304：https://liangpinpuzi.tmall.com	Tmall	21413
+2016-11-08 14:16:55 [main:10347168] - [DEBUG] 当前行 305：https://maochengsp.tmall.com	Tmall	12474
+2016-11-08 14:17:23 [main:10375625] - [DEBUG] 此店铺找到 420 件商品
+2016-11-08 14:17:23 [main:10375625] - [DEBUG] 当前行 306：https://yingpengsp.tmall.com	Tmall	10684
+2016-11-08 14:18:26 [main:10437823] - [DEBUG] 此店铺找到 1001 件商品
+2016-11-08 14:18:26 [main:10437823] - [DEBUG] 当前行 307：https://chaoshi.detail.tmall.com/	Tmall	14523
+2016-11-08 14:18:33 [main:10445700] - [DEBUG] 当前行 308：https://womai.tmall.com	Tmall	22378
+2016-11-08 14:19:22 [main:10494704] - [DEBUG] 此店铺找到 1008 件商品
+2016-11-08 14:19:22 [main:10494704] - [DEBUG] 当前行 309：https://pengfasp.tmall.com	Tmall	2161
+2016-11-08 14:19:41 [main:10513315] - [DEBUG] 此店铺找到 341 件商品
+2016-11-08 14:19:41 [main:10513315] - [DEBUG] 当前行 310：https://yjyjjl.tmall.com	Tmall	21910
+2016-11-08 14:19:54 [main:10526230] - [DEBUG] 此店铺找到 423 件商品
+2016-11-08 14:19:54 [main:10526230] - [DEBUG] 当前行 311：https://zscsp.tmall.com	Tmall	10996
+2016-11-08 14:20:17 [main:10549720] - [DEBUG] 此店铺找到 530 件商品
+2016-11-08 14:20:17 [main:10549720] - [DEBUG] 当前行 312：https://chaoshi.detail.tmall.com	Tmall	13415
+2016-11-08 14:20:25 [main:10557624] - [DEBUG] 当前行 313：https://szswsp.tmall.com	Tmall	10037
+2016-11-08 14:21:08 [main:10600454] - [DEBUG] 此店铺找到 560 件商品
+2016-11-08 14:21:08 [main:10600455] - [DEBUG] 当前行 314：https://csxysp.tmall.com	Tmall	861
+2016-11-08 14:21:22 [main:10614686] - [DEBUG] 此店铺找到 302 件商品
+2016-11-08 14:21:22 [main:10614686] - [DEBUG] 当前行 315：https://lilongshipin.tmall.com	Tmall	12213
+2016-11-08 14:21:42 [main:10634310] - [DEBUG] 此店铺找到 609 件商品
+2016-11-08 14:21:42 [main:10634311] - [DEBUG] 当前行 316：https://shuhaosp.tmall.com	Tmall	9890
+2016-11-08 14:21:53 [main:10645139] - [DEBUG] 此店铺找到 195 件商品
+2016-11-08 14:21:53 [main:10645139] - [DEBUG] 当前行 317：https://youmaisp.tmall.com	Tmall	13149
+2016-11-08 14:22:06 [main:10658506] - [DEBUG] 此店铺找到 210 件商品
+2016-11-08 14:22:06 [main:10658506] - [DEBUG] 当前行 318：https://lyjsp.tmall.com	Tmall	1867
+2016-11-08 14:22:19 [main:10670865] - [DEBUG] 此店铺找到 333 件商品
+2016-11-08 14:22:19 [main:10670866] - [DEBUG] 当前行 319：https://shsssp.tmall.com	Tmall	12125
+2016-11-08 14:22:43 [main:10695345] - [DEBUG] 此店铺找到 486 件商品
+2016-11-08 14:22:43 [main:10695345] - [DEBUG] 当前行 320：https://lingyushipin.tmall.com	Tmall	1762
+2016-11-08 14:22:46 [main:10698166] - [DEBUG] 此店铺找到 39 件商品
+2016-11-08 14:22:46 [main:10698166] - [DEBUG] 当前行 321：https://taisisp.tmall.com	Tmall	12122
+2016-11-08 14:22:50 [main:10702502] - [DEBUG] 此店铺找到 60 件商品
+2016-11-08 14:22:50 [main:10702502] - [DEBUG] 当前行 322：https://wangtongsp.tmall.com	Tmall	12414
+2016-11-08 14:23:14 [main:10725836] - [DEBUG] 此店铺找到 466 件商品
+2016-11-08 14:23:14 [main:10725837] - [DEBUG] 当前行 323：https://dingweisp.tmall.com	Tmall	961
+2016-11-08 14:23:19 [main:10731100] - [DEBUG] 此店铺找到 72 件商品
+2016-11-08 14:23:19 [main:10731100] - [DEBUG] 当前行 324：https://dlxsp.tmall.com	Tmall	972
+2016-11-08 14:23:30 [main:10742570] - [DEBUG] 此店铺找到 217 件商品
+2016-11-08 14:23:30 [main:10742570] - [DEBUG] 当前行 325：https://duoshidiansp.tmall.com	Tmall	15591
+2016-11-08 14:23:33 [main:10745270] - [DEBUG] 此店铺找到 59 件商品
+2016-11-08 14:23:33 [main:10745270] - [DEBUG] 当前行 326：https://yldssp.tmall.com	Tmall	12531
+2016-11-08 14:23:52 [main:10764739] - [DEBUG] 此店铺找到 380 件商品
+2016-11-08 14:23:52 [main:10764740] - [DEBUG] 当前行 327：https://llxsp.tmall.com	Tmall	12169
+2016-11-08 14:24:23 [main:10795027] - [DEBUG] 此店铺找到 571 件商品
+2016-11-08 14:24:23 [main:10795027] - [DEBUG] 当前行 328：https://koushuiwa.tmall.com	Tmall	21875
+2016-11-08 14:24:28 [main:10800528] - [DEBUG] 此店铺找到 131 件商品
+2016-11-08 14:24:28 [main:10800529] - [DEBUG] 当前行 329：https://shenhuishipin.tmall.com	Tmall	2422
+2016-11-08 14:24:31 [main:10803494] - [DEBUG] 此店铺找到 95 件商品
+2016-11-08 14:24:31 [main:10803494] - [DEBUG] 当前行 330：https://weiyidaosp.tmall.com	Tmall	13965
+2016-11-08 14:24:34 [main:10806652] - [DEBUG] 此店铺找到 69 件商品
+2016-11-08 14:24:34 [main:10806652] - [DEBUG] 当前行 331：https://chunhoushipin.tmall.com	Tmall	733
+2016-11-08 14:24:51 [main:10822775] - [DEBUG] 此店铺找到 333 件商品
+2016-11-08 14:24:51 [main:10822775] - [DEBUG] 当前行 332：https://niuniusp.tmall.com	Tmall	12116
+2016-11-08 14:25:07 [main:10839405] - [DEBUG] 此店铺找到 453 件商品
+2016-11-08 14:25:07 [main:10839405] - [DEBUG] 当前行 333：https://ybwcsp.tmall.com	Tmall	12163
+2016-11-08 14:25:15 [main:10847348] - [DEBUG] 此店铺找到 141 件商品
+2016-11-08 14:25:15 [main:10847348] - [DEBUG] 当前行 334：https://qiaotou.tmall.com	Tmall	19452
+2016-11-08 14:25:18 [main:10849900] - [DEBUG] 此店铺找到 53 件商品
+2016-11-08 14:25:18 [main:10849900] - [DEBUG] 当前行 335：https://zuoshangke.tmall.com	Tmall	15127
+2016-11-08 14:25:25 [main:10857029] - [DEBUG] 此店铺找到 140 件商品
+2016-11-08 14:25:25 [main:10857030] - [DEBUG] 当前行 336：https://mufengsp.tmall.com	Tmall	12533
+2016-11-08 14:25:55 [main:10887655] - [DEBUG] 此店铺找到 898 件商品
+2016-11-08 14:25:55 [main:10887656] - [DEBUG] 当前行 337：https://suoyisp.tmall.com	Tmall	12095
+2016-11-08 14:26:04 [main:10895823] - [DEBUG] 此店铺找到 168 件商品
+2016-11-08 14:26:04 [main:10895823] - [DEBUG] 当前行 338：https://yingyusp.tmall.com	Tmall	10685
+2016-11-08 14:26:25 [main:10917316] - [DEBUG] 此店铺找到 720 件商品
+2016-11-08 14:26:25 [main:10917316] - [DEBUG] 当前行 339：https://xsmsp.tmall.com	Tmall	12114
+2016-11-08 14:26:38 [main:10929795] - [DEBUG] 此店铺找到 288 件商品
+2016-11-08 14:26:38 [main:10929795] - [DEBUG] 当前行 340：https://maifansp.tmall.com	Tmall	12154
+2016-11-08 14:27:02 [main:10954283] - [DEBUG] 此店铺找到 480 件商品
+2016-11-08 14:27:02 [main:10954284] - [DEBUG] 当前行 341：https://cdmsmk.tmall.com	Tmall	15035
+2016-11-08 14:27:13 [main:10965719] - [DEBUG] 此店铺找到 222 件商品
+2016-11-08 14:27:13 [main:10965719] - [DEBUG] 当前行 342：https://qingtianshipin.tmall.com	Tmall	12196
+2016-11-08 14:27:22 [main:10974007] - [DEBUG] 此店铺找到 159 件商品
+2016-11-08 14:27:22 [main:10974007] - [DEBUG] 当前行 343：https://tingzhushipin.tmall.com	Tmall	12137
+2016-11-08 14:27:30 [main:10982014] - [DEBUG] 此店铺找到 229 件商品
+2016-11-08 14:27:30 [main:10982014] - [DEBUG] 当前行 344：https://hengyusp.tmall.com	Tmall	12119
+2016-11-08 14:27:44 [main:10996592] - [DEBUG] 此店铺找到 300 件商品
+2016-11-08 14:27:44 [main:10996592] - [DEBUG] 当前行 345：https://xiaoyousp.tmall.com	Tmall	12173
+2016-11-08 14:28:13 [main:11025250] - [DEBUG] 此店铺找到 606 件商品
+2016-11-08 14:28:13 [main:11025250] - [DEBUG] 当前行 346：https://weiyuanshipin.tmall.com	Tmall	12216
+2016-11-08 14:28:31 [main:11042853] - [DEBUG] 此店铺找到 160 件商品
+2016-11-08 14:28:31 [main:11042853] - [DEBUG] 当前行 347：https://qiuguisp.tmall.com	Tmall	12118
+2016-11-08 14:28:43 [main:11055624] - [DEBUG] 此店铺找到 253 件商品
+2016-11-08 14:28:43 [main:11055624] - [DEBUG] 当前行 348：https://cxshsp.tmall.com	Tmall	15281
+2016-11-08 14:28:51 [main:11063424] - [DEBUG] 此店铺找到 180 件商品
+2016-11-08 14:28:51 [main:11063425] - [DEBUG] 当前行 349：https://hqsp.tmall.com	Tmall	12144
+2016-11-08 14:29:22 [main:11094506] - [DEBUG] 此店铺找到 496 件商品
+2016-11-08 14:29:22 [main:11094506] - [DEBUG] 当前行 350：https://syswsp.tmall.com	Tmall	10028
+2016-11-08 14:29:37 [main:11108766] - [DEBUG] 此店铺找到 283 件商品
+2016-11-08 14:29:37 [main:11108766] - [DEBUG] 当前行 351：https://qijiasp.tmall.com	Tmall	2240
+2016-11-08 14:29:54 [main:11126743] - [DEBUG] 此店铺找到 346 件商品
+2016-11-08 14:29:54 [main:11126743] - [DEBUG] 当前行 352：https://sanyishipin.tmall.com	Tmall	16066
+2016-11-08 14:30:03 [main:11135016] - [DEBUG] 此店铺找到 174 件商品
+2016-11-08 14:30:03 [main:11135016] - [DEBUG] 当前行 353：https://lanianlayue.tmall.com	Tmall	18368
+2016-11-08 14:30:05 [main:11137309] - [DEBUG] 此店铺找到 8 件商品
+2016-11-08 14:30:05 [main:11137310] - [DEBUG] 当前行 354：https://dxsp.tmall.com	Tmall	1015
+2016-11-08 14:30:31 [main:11163503] - [DEBUG] 此店铺找到 548 件商品
+2016-11-08 14:30:31 [main:11163503] - [DEBUG] 当前行 355：https://cwfsp.tmall.com	Tmall	866
+2016-11-08 14:30:45 [main:11177337] - [DEBUG] 此店铺找到 278 件商品
+2016-11-08 14:30:45 [main:11177337] - [DEBUG] 当前行 356：https://txjsp.tmall.com	Tmall	10180
+2016-11-08 14:31:04 [main:11196590] - [DEBUG] 此店铺找到 438 件商品
+2016-11-08 14:31:04 [main:11196590] - [DEBUG] 当前行 357：https://yfbysp.tmall.com	Tmall	14699
+2016-11-08 14:31:28 [main:11220384] - [DEBUG] 此店铺找到 603 件商品
+2016-11-08 14:31:28 [main:11220384] - [DEBUG] 当前行 358：https://yaxinsp.tmall.com	Tmall	12419
+2016-11-08 14:31:53 [main:11245322] - [DEBUG] 此店铺找到 540 件商品
+2016-11-08 14:31:53 [main:11245322] - [DEBUG] 当前行 359：https://tcfssp.tmall.com	Tmall	10080
+2016-11-08 14:31:57 [main:11249436] - [DEBUG] 此店铺找到 60 件商品
+2016-11-08 14:31:57 [main:11249436] - [DEBUG] 当前行 360：https://jzhksp.tmall.com	Tmall	12455
+2016-11-08 14:32:12 [main:11264501] - [DEBUG] 此店铺找到 360 件商品
+2016-11-08 14:32:12 [main:11264502] - [DEBUG] 当前行 361：https://tangzhiyuansp.tmall.com	Tmall	12521
+2016-11-08 14:32:30 [main:11282425] - [DEBUG] 此店铺找到 380 件商品
+2016-11-08 14:32:30 [main:11282425] - [DEBUG] 当前行 362：https://shoutaopai.tmall.com	Tmall	15254
+2016-11-08 14:32:38 [main:11290026] - [DEBUG] 此店铺找到 127 件商品
+2016-11-08 14:32:38 [main:11290026] - [DEBUG] 当前行 363：https://ccshipin.tmall.com	Tmall	14905
+2016-11-08 14:32:46 [main:11298284] - [DEBUG] 当前行 364：https://zhenniusp.tmall.com	Tmall	15652
+2016-11-08 14:32:52 [main:11303803] - [DEBUG] 此店铺找到 100 件商品
+2016-11-08 14:32:52 [main:11303803] - [DEBUG] 当前行 365：https://laiyifen.tmall.com	Tmall	21939
+2016-11-08 14:33:08 [main:11319844] - [DEBUG] 此店铺找到 240 件商品
+2016-11-08 14:33:08 [main:11319844] - [DEBUG] 当前行 366：https://shubosp.tmall.com	Tmall	22532
+2016-11-08 14:33:15 [main:11326977] - [DEBUG] 此店铺找到 164 件商品
+2016-11-08 14:33:15 [main:11326978] - [DEBUG] 当前行 367：https://haoyousp.tmall.com	Tmall	1300
+2016-11-08 14:33:26 [main:11338471] - [DEBUG] 此店铺找到 240 件商品
+2016-11-08 14:33:26 [main:11338471] - [DEBUG] 当前行 368：https://carlsberg.tmall.com	Tmall	18882
+2016-11-08 14:33:29 [main:11341154] - [DEBUG] 此店铺找到 41 件商品
+2016-11-08 14:33:29 [main:11341155] - [DEBUG] 当前行 369：https://kysp.tmall.com	Tmall	12106
+2016-11-08 14:33:53 [main:11365357] - [DEBUG] 此店铺找到 496 件商品
+2016-11-08 14:33:53 [main:11365358] - [DEBUG] 当前行 370：https://summi.tmall.com	Tmall	17674
+2016-11-08 14:33:55 [main:11367131] - [DEBUG] 此店铺找到 6 件商品
+2016-11-08 14:33:55 [main:11367132] - [DEBUG] 当前行 371：https://ttwlswysp.tmall.com	Tmall	12535
+2016-11-08 14:34:27 [main:11398841] - [DEBUG] 此店铺找到 493 件商品
+2016-11-08 14:34:27 [main:11398842] - [DEBUG] 当前行 372：https://hkfsp.tmall.com	Tmall	15246
+2016-11-08 14:34:32 [main:11403889] - [DEBUG] 此店铺找到 119 件商品
+2016-11-08 14:34:32 [main:11403889] - [DEBUG] 当前行 373：https://yybssp.tmall.com	Tmall	12199
+2016-11-08 14:34:42 [main:11413847] - [DEBUG] 此店铺找到 180 件商品
+2016-11-08 14:34:42 [main:11413847] - [DEBUG] 当前行 374：https://shaleshipin.tmall.com	Tmall	12233
+2016-11-08 14:34:47 [main:11419706] - [DEBUG] 此店铺找到 169 件商品
+2016-11-08 14:34:47 [main:11419706] - [DEBUG] 当前行 375：https://wmdacsp.tmall.com	Tmall	15441
+2016-11-08 14:35:03 [main:11434876] - [DEBUG] 此店铺找到 311 件商品
+2016-11-08 14:35:03 [main:11434877] - [DEBUG] 当前行 376：https://xidishipin.tmall.com	Tmall	12228
+2016-11-08 14:35:16 [main:11447804] - [DEBUG] 此店铺找到 353 件商品
+2016-11-08 14:35:16 [main:11447804] - [DEBUG] 当前行 377：https://yzgsp.tmall.com	Tmall	12070
+2016-11-08 14:35:34 [main:11465855] - [DEBUG] 此店铺找到 390 件商品
+2016-11-08 14:35:34 [main:11465856] - [DEBUG] 当前行 378：https://xljhjl.tmall.com	Tmall	13859
+2016-11-08 14:35:51 [main:11483032] - [DEBUG] 此店铺找到 302 件商品
+2016-11-08 14:35:51 [main:11483032] - [DEBUG] 当前行 379：https://lanmusp.tmall.com	Tmall	12482
+2016-11-08 14:36:58 [main:11550244] - [DEBUG] 此店铺找到 895 件商品
+2016-11-08 14:36:58 [main:11550244] - [DEBUG] 当前行 380：https://ffsp.tmall.com	Tmall	1084
+2016-11-08 14:37:06 [main:11558032] - [DEBUG] 此店铺找到 162 件商品
+2016-11-08 14:37:06 [main:11558032] - [DEBUG] 当前行 381：https://mhjsp.tmall.com	Tmall	12198
+2016-11-08 14:37:27 [main:11579613] - [DEBUG] 此店铺找到 340 件商品
+2016-11-08 14:37:27 [main:11579613] - [DEBUG] 当前行 382：https://hhzsp.tmall.com	Tmall	14403
+2016-11-08 14:37:36 [main:11588279] - [DEBUG] 此店铺找到 268 件商品
+2016-11-08 14:37:36 [main:11588279] - [DEBUG] 当前行 383：https://haojisp.tmall.com	Tmall	18575
+2016-11-08 14:37:38 [main:11590700] - [DEBUG] 此店铺找到 22 件商品
+2016-11-08 14:37:38 [main:11590700] - [DEBUG] 当前行 384：https://guwusp.tmall.com	Tmall	16129
+2016-11-08 14:37:42 [main:11594414] - [DEBUG] 此店铺找到 60 件商品
+2016-11-08 14:37:42 [main:11594414] - [DEBUG] 当前行 385：https://stsp.tmall.com	Tmall	12445
+2016-11-08 14:37:51 [main:11603607] - [DEBUG] 此店铺找到 180 件商品
+2016-11-08 14:37:51 [main:11603608] - [DEBUG] 当前行 386：https://xmdsp.tmall.com	Tmall	12139
+2016-11-08 14:37:59 [main:11611743] - [DEBUG] 此店铺找到 236 件商品
+2016-11-08 14:38:00 [main:11611776] - [DEBUG] 当前行 387：https://qutongsp.tmall.com	Tmall	12187
+2016-11-08 14:38:12 [main:11624494] - [DEBUG] 此店铺找到 264 件商品
+2016-11-08 14:38:12 [main:11624494] - [DEBUG] 当前行 388：https://lrsp.tmall.com	Tmall	12193
+2016-11-08 14:38:26 [main:11638228] - [DEBUG] 此店铺找到 296 件商品
+2016-11-08 14:38:26 [main:11638228] - [DEBUG] 当前行 389：https://cxshipin.tmall.com	Tmall	876
+2016-11-08 14:38:34 [main:11646554] - [DEBUG] 此店铺找到 180 件商品
+2016-11-08 14:38:34 [main:11646554] - [DEBUG] 当前行 390：https://slhsp.tmall.com	Tmall	9930
+2016-11-08 14:38:42 [main:11653917] - [DEBUG] 此店铺找到 135 件商品
+2016-11-08 14:38:42 [main:11653917] - [DEBUG] 当前行 391：https://sktsp.tmall.com	Tmall	12167
+2016-11-08 14:39:10 [main:11681827] - [DEBUG] 此店铺找到 482 件商品
+2016-11-08 14:39:10 [main:11681827] - [DEBUG] 当前行 392：https://szxmsp.tmall.com	Tmall	16442
+2016-11-08 14:39:20 [main:11692083] - [DEBUG] 此店铺找到 211 件商品
+2016-11-08 14:39:20 [main:11692083] - [DEBUG] 当前行 393：https://taopinxiaozhan.tmall.com	Tmall	22498
+2016-11-08 14:39:25 [main:11696989] - [DEBUG] 此店铺找到 83 件商品
+2016-11-08 14:39:25 [main:11696989] - [DEBUG] 当前行 394：https://quweishipin.tmall.com	Tmall	12146
+2016-11-08 14:39:33 [main:11704837] - [DEBUG] 此店铺找到 230 件商品
+2016-11-08 14:39:33 [main:11704837] - [DEBUG] 当前行 395：https://lswsp.tmall.com	Tmall	14337
+2016-11-08 14:39:45 [main:11717748] - [DEBUG] 此店铺找到 282 件商品
+2016-11-08 14:39:45 [main:11717748] - [DEBUG] 当前行 396：https://dmjsp.tmall.com	Tmall	12494
+2016-11-08 14:40:06 [main:11738199] - [DEBUG] 此店铺找到 466 件商品
+2016-11-08 14:40:06 [main:11738199] - [DEBUG] 当前行 397：https://zushishipin.tmall.com	Tmall	15519
+2016-11-08 14:40:28 [main:11759782] - [DEBUG] 此店铺找到 474 件商品
+2016-11-08 14:40:28 [main:11759782] - [DEBUG] 当前行 398：https://xiuzhengwdn.tmall.com	Tmall	16505
+2016-11-08 14:40:30 [main:11762283] - [DEBUG] 此店铺找到 30 件商品
+2016-11-08 14:40:30 [main:11762283] - [DEBUG] 当前行 399：https://miaoyuxiaodiaosp.tmall.com	Tmall	15016
+2016-11-08 14:40:33 [main:11765217] - [DEBUG] 此店铺找到 61 件商品
+2016-11-08 14:40:33 [main:11765218] - [DEBUG] 当前行 400：https://lianheshipin.tmall.com	Tmall	1746
+2016-11-08 14:40:41 [main:11773035] - [DEBUG] 处理完成，本次一共找到 68500 件商品
+2016-11-08 14:40:41 [main:11773035] - [DEBUG] 处理完成，本次一共找到 68500 件商品

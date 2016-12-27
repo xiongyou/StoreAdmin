@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webstoreConfig>
+	<storeUrlFile>DuiBiao.txt</storeUrlFile><!-- 店铺链接文件 -->
+	<fileEncoding>UTF8</fileEncoding><!-- 店铺链接文件的编码 -->
+	<websites>
+		<website name="TaoBao">
+			<configs>
+				<mode >0</mode><!-- 0:构造所有产品，1:webDriver点击 -->
+				<append>/search.htm?search=y</append><!-- 在店铺链接后面追加部分，得到店铺所有链接 -->
+				<checkLoadCssSelector checkResultText="">#J_ShopSearchResult &gt; div &gt; div.shop-hesper-bd.grid &gt; div.shop-filter &gt; div.pagination.pagination-mini &gt; span</checkLoadCssSelector><!-- 用于判断所有商品页面的加载，一般可设置为下一页链接 -->
+				<productUrlReg>(?&lt;=item-name J_TGoldData&quot; href=&quot;)([^&quot;]*)(?=&quot;)</productUrlReg><!-- 需要获取的商品链接匹配规则正则表达式 -->
+				<nextPageCssSelector>#J_ShopSearchResult &gt; div &gt; div.shop-hesper-bd.grid &gt; div.shop-filter &gt; div.pagination.pagination-mini &gt; a:nth-child(3)</nextPageCssSelector><!-- 下一页页面元素 -->
+				<prefix>https:</prefix><!-- 提取的商品链接前缀 -->
+				<isSameUrl>0</isSameUrl><!-- 指定换页之后链接是否相同    不同：0           相同：1-->
+			</configs>
+		</website>
+		<website name="Tmall">
+			<configs>
+				<mode>0</mode>
+				<append>/search.htm?search=y</append>
+				<checkLoadCssSelector checkResultText="">#J_ShopSearchResult &gt; div &gt; div.filter.clearfix.J_TFilter &gt; p &gt; b.ui-page-s-len</checkLoadCssSelector>
+				<productUrlReg>(?&lt;=item-name J_TGoldData[^&gt;]{10,80}shopcon[^&gt;]{5,40}href=&quot;)([^&quot;]*)(?=&quot;)</productUrlReg>
+				<nextPageCssSelector>#J_ShopSearchResult &gt; div &gt; div.filter.clearfix.J_TFilter &gt; p &gt; .ui-page-s-next</nextPageCssSelector>
+				<prefix>https:</prefix>	<!-- 提取的商品链接前缀 -->	
+				<isSameUrl>0</isSameUrl><!-- 指定换页之后链接是否相同 -->		
+			</configs>
+		</website>
+		<website name="SuNing">
+			<configs>
+				<mode>0</mode>
+				<append>/search.html</append>
+				<checkLoadCssSelector checkResultText="">div.sf-filterPage</checkLoadCssSelector>
+				<productUrlReg>(?&lt;=sf-proName&quot;&gt;&lt;a href=&quot;)([^&quot;]*)(?=&quot;)</productUrlReg>
+				<nextPageCssSelector>.sf-next</nextPageCssSelector>
+				<prefix></prefix>			
+				<isSameUrl>1</isSameUrl>	
+			</configs>
+		</website>
+		<website name="YouLeGou">
+			<configs>
+				<mode clickEle="">1</mode>
+				<checkLoadCssSelector checkResultText=""></checkLoadCssSelector>
+				<productUrlReg></productUrlReg>
+				<nextPageCssSelector></nextPageCssSelector>
+			</configs>
+		</website>
+	</websites>
+</webstoreConfig>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<searchConfig>
+	<website>
+		<!-- 苏宁易购 -->
+		<SuNing>
+			<charset>utf-8</charset>
+			<searchURL>http://search.suning.com/[keyword]/</searchURL>
+			<totalPage targetgroup="1">(?&lt;=class="pageTotal"&gt;)([\d]*)(?=&lt;/i&gt;)</totalPage>
+			<nextPageURL>http://search.suning.com/[keyword]/&amp;iy=0&amp;cp=[PageNum]</nextPageURL>
+			<productURL>(?&lt;=&lt;a class="sellPoint" title="[^&gt;]{1,200}href=")([^&gt;]*)(?="&gt;)</productURL>
+		</SuNing>
+		<!-- 京东 -->
+		<JingDong>
+			<charset>utf-8</charset>
+			<searchURL>http://search.jd.com/Search?keyword=[keyword]&amp;enc=utf-8</searchURL> 
+			<totalPage targetgroup="1">(?&lt;=&lt;span class="fp-text"&gt;[^\d]{1,50}\d[^\d]{1,30})(\d*)(?=&lt;/i&gt;)</totalPage>
+			<nextPageURL>http://search.jd.com/Search?keyword=[keyword]&amp;page=[PageNum]</nextPageURL>
+			<productURL>(?&lt;=&lt;div class="p-name p-name-type-2"&gt;[^&lt;]{1,10}&lt;a target[^&gt;]{1,100}href=")([^&gt;]*)(?=" onclick)</productURL>
+		</JingDong>
+		<!-- 淘宝 -->
+		<TaoBao>
+			<charset>utf-8</charset>
+			<searchURL>https://s.taobao.com/search?q=[keyword]</searchURL>
+			<totalPage targetgroup="1">(?&lt;="pager"[^"]{1,5}"status"[^\d]{5,40}[\d]{1,10},"totalPage":)(\d*)(?=,"currentPage")</totalPage>
+			<!-- （翻页特殊）[PageNum]=（总页数-1）*44 -->
+			<nextPageURL>https://s.taobao.com/search?q=[keyword]&amp;s=[PageNum]</nextPageURL>
+			<!-- 淘宝获取的是产品id ,需要构造 -->
+			<productURL website="">(?&lt;=detail_url":"//item\.taobao[^\d]{3,80}003d)(\d{5,20})(?=\\u)</productURL>
+		</TaoBao>
+		<!-- 天猫 （翻页特殊）[PageNum]=（总页数-1）*60-->
+		<Tmall>
+			<charset>gbk</charset>
+			<searchURL>https://list.tmall.com/search_product.htm?q=[keyword]</searchURL>
+			<totalPage targetgroup="1">(?&lt;=b class="ui-page-s-len"&gt;\d/)(\d*)(?=&lt;/b&gt;)</totalPage>
+			<nextPageURL>https://list.tmall.com/search_product.htm?s=[PageNum]&amp;q=[keyword]&amp;sort=s&amp;style=g&amp;from=.list.pc_1_searchbutton&amp;spm=a220m.1000858.a2227oh.d100&amp;tmhkmain=0&amp;type=pc#J_Filter</nextPageURL>
+			<productURL>(?&lt;=&lt;p class="productTitle"&gt;[^&gt;]{1,20}href=")([^"]*)(?=")</productURL>
+		</Tmall>
+		<!-- 一号店 -->
+		<YiHaoDian>
+			<charset>utf-8</charset>
+			<searchURL>http://search.yhd.com/c0-0/k[keyword]</searchURL>
+			<totalPage targetgroup="1">(?&lt;=&lt;input id="pageCountPage"[^\d]{1,40})(\d*)(?="/&gt;)</totalPage>
+			<nextPageURL>http://search.yhd.com/c0-0-0/b/a-s1-v4-p[PageNum]-price-d0-f0d-m1-rt0-pid-mid0-k[keyword]</nextPageURL>
+			<productURL>(?&lt;=&lt;p class="proName clearfix"&gt;[^&gt;]{1,50}href=")([^"]*)(?=" target=")</productURL>
+		</YiHaoDian>
+		<!-- 顺丰优选 -->
+		<ShunFengYouXuan>
+			<charset>utf-8</charset>
+			<searchURL>http://www.sfbest.com/productlist/search?keyword=[keyword]</searchURL>
+			<totalPage targetgroup="1">(?&lt;=&lt;span class="n">\d{1,5}&lt;/span&gt;/)(\d*)(?=&lt;/span&gt;)</totalPage>
+			<!--[PageNum]从0开始到总页数-1  -->
+			<nextPageURL>http://www.sfbest.com/productlist/search/?keyword=[keyword]&amp;o=saleNum%3Adesc&amp;pageNo=[PageNum]#prolist</nextPageURL>
+			<productURL>(?&lt;=class="trackref presaleSign[^&gt;]{1,50}href=")([^"]*)(?=")</productURL>
+		</ShunFengYouXuan>
+		<!-- 邮乐购 -->
+		<YouLeGou>
+			<charset>utf-8</charset>
+			<searchURL>http://search.ule.com/search.do?keywords=[keyword]</searchURL>
+			<totalPage targetgroup="1">(?&lt;=&lt;span&gt;共)(\d*)(?=页&lt;/span&gt;)</totalPage>
+			<nextPageURL>http://search.ule.com/--[keyword]--------0-[PageNum].html</nextPageURL>
+			<productURL>(?&lt;=&lt;p class="name"&gt;[^&gt;]{1,50}href=")([^"]*)(?=")</productURL>
+		</YouLeGou>
+		<!-- 沱沱工社 -->
+		<TuoTuoGongShe>
+			<charset>utf-8</charset>
+			<searchURL>http://www.tootoo.cn/list-s1-0-0-0-[keyword]-1,2,3,0-zh_cn.html</searchURL>
+			<totalPage targetgroup="1">(?&lt;=class="total">共)(\d*)(?=页)</totalPage>
+			<nextPageURL>http://www.tootoo.cn/list-s1-0-0-0-[keyword]-0-0-[PageNum]-0-0-0-1,2,3,0-zh_cn.html</nextPageURL>
+			<productURL>(?&lt;=class="pro_title"&gt;[^&gt;]{1,50}href=")([^"]*)(?=")</productURL>
+		</TuoTuoGongShe>
+		<!-- 世纪购 -->
+		<ShiJiGou>
+			<charset>utf-8</charset>
+			<searchURL>http://www.sjgo365.com/Products/Search?keyWord=[keyword]</searchURL>
+			<totalPage targetgroup="1">(?&lt;=&lt;font color="#EE2902"&gt;\d{1,2}/)(\d*)(?=&lt;/font&gt;)</totalPage>
+			<nextPageURL>http://www.sjgo365.com/Products/Search?keyWord=[keyword]&amp;filters=&amp;orderField=&amp;direction=desc&amp;pageIndex=[PageNum]</nextPageURL>
+			<!-- productURL只能获取到后面部分，还需要在前面加上网站地址【http://www.sjgo365.com】 -->
+			<productURL>(?&lt;=href=")([^"]*)(?=" id="name-t1)</productURL>
+		</ShiJiGou>
+		<!-- 太极养身馆 -->
+		<TaiJiYSG>
+			<charset>utf-8</charset>
+			<searchURL>http://www.0618.com/productlist.ac?category=1&amp;keyword=[keyword]</searchURL>
+			<totalPage targetgroup="1">(?&lt;=div class="text"&gt;\d{1,10}/)(\d*)(?=&lt;/div)</totalPage>
+			<nextPageURL>http://www.0618.com/productlist.ac?category=1&amp;q=&amp;keyword=[keyword]&amp;order=&amp;page=[PageNum]</nextPageURL>
+			<!-- productURL只能获取到后面部分，还需要在前面加上网站地址【http://www.0618.com】 -->
+			<productURL>(?&lt;=&lt;div class="title"&gt;&lt;a href=")([^"]*)(?=")</productURL>
+		</TaiJiYSG>
+		<!-- 超级美味 -->
+		<ChaoJiMeiWei>
+			<charset>utf-8</charset>
+			<searchURL>http://www.cmeiwei.com/search/?wd=[keyword]</searchURL>
+			<totalPage targetgroup="1">(?&lt;=&amp;page=)(\d*)(?='&gt;下一页)</totalPage>
+			<nextPageURL>http://www.cmeiwei.com/search/?wd=[keyword]&amp;page=[PageNum]</nextPageURL>
+			<!-- productURL只能获取到后面部分，还需要在前面加上网站地址【http://www.cmeiwei.com】 -->
+			<productURL>(?&lt;=&lt;a href=")([^"]*)(?=" class="photo_listprd")</productURL>
+		</ChaoJiMeiWei>
+		
+	</website>
+	<keywords>
+		脐橙
+	</keywords>
+</searchConfig>
