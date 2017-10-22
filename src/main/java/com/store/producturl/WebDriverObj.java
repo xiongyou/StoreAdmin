@@ -66,7 +66,7 @@ public class WebDriverObj {
 			String content = driver.getPageSource().replaceAll("&lt;", "<").replaceAll("&gt;", ">")
 					.replaceAll("&amp;", "&").replaceAll("&quot;", "\"");
 			
-			//System.out.println(content);
+			System.out.println(content);
 			// 匹配产品URL
 			urlList.addAll(this.resultOfRegex(content, ProcessIn.storeConfigAttr.getProductUrlReg()));
 

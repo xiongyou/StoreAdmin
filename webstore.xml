@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <webstoreConfig>
-	<storeUrlFile>DuiBiao.txt</storeUrlFile><!-- 店铺链接文件 -->
+	<storeUrlFile>tmall.txt</storeUrlFile><!-- 店铺链接文件 -->
 	<fileEncoding>UTF8</fileEncoding><!-- 店铺链接文件的编码 -->
 	<websites>
 		<website name="TaoBao">
@@ -17,14 +17,19 @@
 		<website name="Tmall">
 			<configs>
 				<mode>0</mode>
-				<append>/search.htm?search=y</append>
-				<checkLoadCssSelector checkResultText="">#J_ShopSearchResult &gt; div &gt; div.filter.clearfix.J_TFilter &gt; p &gt; b.ui-page-s-len</checkLoadCssSelector>
-				<productUrlReg>(?&lt;=item-name J_TGoldData[^&gt;]{10,80}shopcon[^&gt;]{5,40}href=&quot;)([^&quot;]*)(?=&quot;)</productUrlReg>
-				<nextPageCssSelector>#J_ShopSearchResult &gt; div &gt; div.filter.clearfix.J_TFilter &gt; p &gt; .ui-page-s-next</nextPageCssSelector>
+				<append></append>
+				<checkLoadCssSelector checkResultText="">.ui-page-next</checkLoadCssSelector>
+				<productUrlReg>(?&lt;=&lt;p class=&quot;productTitle&quot;&gt;[^&quot;]{1,20}href=&quot;)([^&amp;]+)(?=&amp;)</productUrlReg>
+				<nextPageCssSelector>.ui-page-next</nextPageCssSelector>
 				<prefix>https:</prefix>	<!-- 提取的商品链接前缀 -->	
 				<isSameUrl>0</isSameUrl><!-- 指定换页之后链接是否相同 -->		
 			</configs>
 		</website>
+		<!-- 
+				<nextPageCssSelector>#J_ShopSearchResult &gt; div &gt; div.filter.clearfix.J_TFilter &gt; p &gt; .ui-page-s-next</nextPageCssSelector>
+				<checkLoadCssSelector checkResultText="">a.ui-page-next</checkLoadCssSelector>
+				<productUrlReg>(?&lt;=item-name J_TGoldData[^&gt;]{10,80}shopcon[^&gt;]{5,40}href=&quot;)([^&quot;]*)(?=&quot;)</productUrlReg>
+		 -->
 		<website name="SuNing">
 			<configs>
 				<mode>0</mode>
