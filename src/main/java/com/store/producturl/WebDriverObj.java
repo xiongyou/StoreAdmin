@@ -16,8 +16,11 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import com.store.config.Input;
+
 public class WebDriverObj {
 	public WebDriver getAWebDriver() {
+		System.setProperty("webdriver.chrome.driver", "libs/chromedriver.exe");
 		WebDriver driver = null;
 		// 初始化，不显示图片
 		Map<String, Object> contentSettings = new HashMap<String, Object>();
@@ -44,13 +47,142 @@ public class WebDriverObj {
 		} else {
 			driver.get(storeUrl);
 		}
-		//int lastContentHash=-1;
+		// int lastContentHash=-1;
+
+		String userName = ProcessIn.storeConfigAttr.getXpathText("webstoreConfig/login/@username");
+		String password = ProcessIn.storeConfigAttr.getXpathText("webstoreConfig/login/@password");
+
 		while (true) {
-			final WebDriver tmpDriver = driver.switchTo().window(curWindowHandle);
+			Thread.sleep(200);
+			String tmpurl = driver.getCurrentUrl();
+			
+			
+
+			int loginTime = 0;
+			while (tmpurl.contains("login") && loginTime < 5) {
+				try {
+					System.out.println("需要登录!");
+					if ("Tmall".equals(website)) {
+						driver.switchTo().frame("J_loginIframe");
+					}
+
+					// 切换到输入用户名、密码登录
+					try {
+						WebElement switchBtn = driver.findElement(By.cssSelector("a.J_Quick2Static"));
+						switchBtn.click();
+					}
+					// 输入用户名密码
+					finally {
+						
+						WebElement usernameEle = driver.findElement(By.cssSelector("#TPL_username_1"));
+						usernameEle.clear();
+						usernameEle.sendKeys(userName);
+						Thread.sleep(2000);
+
+						WebElement pwdEle = driver.findElement(By.cssSelector("#TPL_password_1"));
+						pwdEle.clear();
+						pwdEle.sendKeys(password+"1");
+						
+						Thread.sleep(2000);
+						
+						//判断是否有滑块
+						
+						
+						
+						// 点击登录
+						driver.findElement(By.cssSelector("button#J_SubmitStatic")).click();
+						Thread.sleep(2000);
+					}
+					// pageList.add("需要登录");
+					// return pageList;
+				} catch (Exception e) {
+					e.printStackTrace();
+				} finally {
+					loginTime++;
+					if (loginTime >= 5) {
+						System.out.println("登录出错超过5次，请检查用户名、密码，然后输入回车!");
+
+						Input.sc.nextLine();
+					}
+					driver.switchTo().defaultContent();
+					tmpurl = driver.getCurrentUrl();
+				}
+			}
+			
+			//天猫验证
+			if(tmpurl.contains("sec.taobao")){
+				System.out.println("需要验证，然后输入回车!");
+
+				Input.sc.nextLine();
+			}
+			
+
+			boolean bLogin = false;
+
+			if ("TaoBao".equals(website) || "Tmall".equals(website)) {
+				while (!bLogin) {
+					try {
+						// 注意，此处登录与验证码的弹窗是同一个窗体对象
+						driver.findElement(By.cssSelector("div.sufei-dialog-content"));
+						// 输入用户名密码
+						driver.switchTo().frame("sufei-dialog-content");
+
+						// 先判断是否为验证码弹窗
+						try {
+							WebElement identCodeEle = driver.findElement(By.cssSelector("div#J_CodeContainer"));
+							System.out.println("需要输入验证码！");
+							Input.sc.nextLine();
+						} catch (Exception e) {
+							
+							WebElement usernameEle = driver.findElement(By.cssSelector("#TPL_username_1"));
+							usernameEle.clear();
+							usernameEle.sendKeys(userName);
+							Thread.sleep(2000);
+
+							WebElement pwdEle = driver.findElement(By.cssSelector("#TPL_password_1"));
+							pwdEle.clear();
+							pwdEle.sendKeys(password);
+							Thread.sleep(2000);
+							// 点击登录
+							 
+							 
+							driver.findElement(By.cssSelector("button#J_SubmitStatic")).click();
+
+							// 此时 没跳出frame，如果这时定位default content中的元素也会报错
+							// dr.findElement(By.id("id1"));//error
+							/** 跳出frame,进入default content;重新定位id="id1"的div */
+							driver.switchTo().defaultContent();
+						}
+						
+					} 
+					//没有弹窗，不需要登录
+					catch (Exception e) {
+						bLogin = true;
+						e.printStackTrace();
+						try {
+							Thread.sleep(500);
+						} catch (InterruptedException e1) {
+							// TODO Auto-generated catch block
+							e1.printStackTrace();
+						}
+						driver.navigate().refresh();
+						try {
+							Thread.sleep(1000);
+						} catch (InterruptedException e1) {
+							// TODO Auto-generated catch block
+							e1.printStackTrace();
+						}
+					}
+				}
+			}
+
 			String tmpUrl = driver.getCurrentUrl();
+			final WebDriver tmpDriver = driver.switchTo().window(curWindowHandle);
+
 			try {
 				(new WebDriverWait(driver, timeout)).until(new ExpectedCondition<Boolean>() {
 					public Boolean apply(WebDriver d) {
+
 						String cssContent = tmpDriver.findElement(By.cssSelector(cssSelector)).getText();
 						System.out.println("第 " + cssContent + " 页");
 						boolean b = cssContent.equals("") || cssContent.equals("-");
@@ -65,7 +197,7 @@ public class WebDriverObj {
 
 			String content = driver.getPageSource().replaceAll("&lt;", "<").replaceAll("&gt;", ">")
 					.replaceAll("&amp;", "&").replaceAll("&quot;", "\"");
-			
+
 			System.out.println(content);
 			// 匹配产品URL
 			urlList.addAll(this.resultOfRegex(content, ProcessIn.storeConfigAttr.getProductUrlReg()));
@@ -80,23 +212,14 @@ public class WebDriverObj {
 			if (tmpUrl.equals(curUrl)) {
 				break;
 			}
-			/*if (ProcessIn.storeConfigAttr.getIsSameUrl().equals("0")) {
-				if (tmpUrl.equals(curUrl)) {
-					break;
-				}
-			}
-			else{
-				if (tmpUrl.equals(curUrl)) {
-					int curContentHash=content.hashCode();
-					if(lastContentHash==curContentHash){
-						break;
-					}
-					else{
-						lastContentHash=curContentHash;
-					}
-				}
-			}*/
-			
+			/*
+			 * if (ProcessIn.storeConfigAttr.getIsSameUrl().equals("0")) { if
+			 * (tmpUrl.equals(curUrl)) { break; } } else{ if
+			 * (tmpUrl.equals(curUrl)) { int curContentHash=content.hashCode();
+			 * if(lastContentHash==curContentHash){ break; } else{
+			 * lastContentHash=curContentHash; } } }
+			 */
+
 		}
 
 		// for(String str:urlList){
@@ -104,6 +227,7 @@ public class WebDriverObj {
 		// }
 
 		return urlList;
+
 	}
 
 	/**

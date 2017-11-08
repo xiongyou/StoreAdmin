@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <webstoreConfig>
-	<storeUrlFile>tmall.txt</storeUrlFile><!-- 店铺链接文件 -->
+	<storeUrlFile>tmall_nxdz.txt</storeUrlFile><!-- 店铺链接文件 -->
 	<fileEncoding>UTF8</fileEncoding><!-- 店铺链接文件的编码 -->
+	<login username="xiongyou2011" password="ad6984984xiong"></login>
 	<websites>
 		<website name="TaoBao">
 			<configs>
