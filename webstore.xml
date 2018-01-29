@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <webstoreConfig>
-	<storeUrlFile>tmall_nxdz.txt</storeUrlFile><!-- 店铺链接文件 -->
+	<storeUrlFile>JingDong_nxdz.txt</storeUrlFile><!-- 店铺链接文件 -->
 	<fileEncoding>UTF8</fileEncoding><!-- 店铺链接文件的编码 -->
 	<login username="xiongyou2011" password="ad6984984xiong"></login>
 	<websites>
@@ -21,7 +21,7 @@
 				<append></append>
 				<checkLoadCssSelector checkResultText="">.ui-page-next</checkLoadCssSelector>
 				<productUrlReg>(?&lt;=&lt;p class=&quot;productTitle&quot;&gt;[^&quot;]{1,20}href=&quot;)([^&amp;]+)(?=&amp;)</productUrlReg>
-				<nextPageCssSelector>.ui-page-next</nextPageCssSelector>
+				<nextPageCssSelector>.ui-page-s-next</nextPageCssSelector>
 				<prefix>https:</prefix>	<!-- 提取的商品链接前缀 -->	
 				<isSameUrl>0</isSameUrl><!-- 指定换页之后链接是否相同 -->		
 			</configs>
@@ -37,9 +37,20 @@
 				<append>/search.html</append>
 				<checkLoadCssSelector checkResultText="">div.sf-filterPage</checkLoadCssSelector>
 				<productUrlReg>(?&lt;=sf-proName&quot;&gt;&lt;a href=&quot;)([^&quot;]*)(?=&quot;)</productUrlReg>
-				<nextPageCssSelector>.sf-next</nextPageCssSelector>
-				<prefix></prefix>			
+				<nextPageCssSelector>.sf-filterPageNext</nextPageCssSelector>
+				<prefix>http:</prefix>			
 				<isSameUrl>1</isSameUrl>	
+			</configs>
+		</website>
+		<website name="JingDong">
+			<configs>
+				<mode >0</mode><!-- 0:构造所有产品，1:webDriver点击 -->
+				<append></append><!-- 在店铺链接后面追加部分，得到店铺所有链接 -->
+				<checkLoadCssSelector checkResultText="">a.pn-next em</checkLoadCssSelector><!-- 用于判断所有商品页面的加载，一般可设置为下一页链接 -->
+				<productUrlReg>(?&lt;=&lt;div class=&quot;p-name p-name-type-2&quot;&gt;[^&lt;]{1,10}&lt;a target[^&gt;]{1,100}href=&quot;)([^&quot;]*)(?=&quot;)</productUrlReg><!-- 需要获取的商品链接匹配规则正则表达式 -->
+				<nextPageCssSelector>a.fp-next</nextPageCssSelector><!-- 下一页页面元素 -->
+				<prefix>http:</prefix><!-- 提取的商品链接前缀 -->
+				<isSameUrl>0</isSameUrl><!-- 指定换页之后链接是否相同    不同：0           相同：1-->
 			</configs>
 		</website>
 		<website name="YouLeGou">

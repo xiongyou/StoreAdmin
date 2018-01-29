@@ -7,11 +7,14 @@ import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -19,18 +22,19 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import com.store.config.Input;
 
 public class WebDriverObj {
+	public static Logger logger = Logger.getLogger(WebDriverObj.class.getSimpleName());
+
 	public WebDriver getAWebDriver() {
 		System.setProperty("webdriver.chrome.driver", "libs/chromedriver.exe");
-		WebDriver driver = null;
-		// 初始化，不显示图片
-		Map<String, Object> contentSettings = new HashMap<String, Object>();
-		contentSettings.put("images", 2);
-		Map<String, Object> preferences = new HashMap<String, Object>();
-		preferences.put("profile.default_content_setting_values", contentSettings);
-		DesiredCapabilities caps = DesiredCapabilities.chrome();
-		caps.setCapability("chrome.prefs", preferences);
 
-		driver = new ChromeDriver(caps);
+		ChromeOptions options = new ChromeOptions();
+		List<String> chromeArgs = new ArrayList<String>();
+
+		chromeArgs.add(
+				"user-agent=Mozilla/5.0 (compatible; Baiduspider-render/2.0; +http://www.baidu.com/search/spider.html)");
+		options.addArguments(chromeArgs);
+		WebDriver driver = new ChromeDriver(options);
+
 		driver.manage().window().maximize();
 		return driver;
 	}
@@ -47,7 +51,7 @@ public class WebDriverObj {
 		} else {
 			driver.get(storeUrl);
 		}
-		// int lastContentHash=-1;
+		 int lastContentHash=-1; //当下一页链接相同、不会变化时，用内容文本进行判断是否为同一个页面
 
 		String userName = ProcessIn.storeConfigAttr.getXpathText("webstoreConfig/login/@username");
 		String password = ProcessIn.storeConfigAttr.getXpathText("webstoreConfig/login/@password");
@@ -55,8 +59,6 @@ public class WebDriverObj {
 		while (true) {
 			Thread.sleep(200);
 			String tmpurl = driver.getCurrentUrl();
-			
-			
 
 			int loginTime = 0;
 			while (tmpurl.contains("login") && loginTime < 5) {
@@ -73,7 +75,7 @@ public class WebDriverObj {
 					}
 					// 输入用户名密码
 					finally {
-						
+
 						WebElement usernameEle = driver.findElement(By.cssSelector("#TPL_username_1"));
 						usernameEle.clear();
 						usernameEle.sendKeys(userName);
@@ -81,14 +83,12 @@ public class WebDriverObj {
 
 						WebElement pwdEle = driver.findElement(By.cssSelector("#TPL_password_1"));
 						pwdEle.clear();
-						pwdEle.sendKeys(password+"1");
-						
+						pwdEle.sendKeys(password + "1");
+
 						Thread.sleep(2000);
-						
-						//判断是否有滑块
-						
-						
-						
+
+						// 判断是否有滑块
+
 						// 点击登录
 						driver.findElement(By.cssSelector("button#J_SubmitStatic")).click();
 						Thread.sleep(2000);
@@ -108,14 +108,13 @@ public class WebDriverObj {
 					tmpurl = driver.getCurrentUrl();
 				}
 			}
-			
-			//天猫验证
-			if(tmpurl.contains("sec.taobao")){
+
+			// 天猫验证
+			if (tmpurl.contains("sec.taobao")) {
 				System.out.println("需要验证，然后输入回车!");
 
 				Input.sc.nextLine();
 			}
-			
 
 			boolean bLogin = false;
 
@@ -133,7 +132,7 @@ public class WebDriverObj {
 							System.out.println("需要输入验证码！");
 							Input.sc.nextLine();
 						} catch (Exception e) {
-							
+
 							WebElement usernameEle = driver.findElement(By.cssSelector("#TPL_username_1"));
 							usernameEle.clear();
 							usernameEle.sendKeys(userName);
@@ -144,8 +143,7 @@ public class WebDriverObj {
 							pwdEle.sendKeys(password);
 							Thread.sleep(2000);
 							// 点击登录
-							 
-							 
+
 							driver.findElement(By.cssSelector("button#J_SubmitStatic")).click();
 
 							// 此时 没跳出frame，如果这时定位default content中的元素也会报错
@@ -153,9 +151,9 @@ public class WebDriverObj {
 							/** 跳出frame,进入default content;重新定位id="id1"的div */
 							driver.switchTo().defaultContent();
 						}
-						
-					} 
-					//没有弹窗，不需要登录
+
+					}
+					// 没有弹窗，不需要登录
 					catch (Exception e) {
 						bLogin = true;
 						e.printStackTrace();
@@ -179,6 +177,16 @@ public class WebDriverObj {
 			String tmpUrl = driver.getCurrentUrl();
 			final WebDriver tmpDriver = driver.switchTo().window(curWindowHandle);
 
+			// 京东懒加载
+			if ("JingDong".equals(website)) {
+				driver.findElement(By.cssSelector("body")).sendKeys(Keys.END);
+				try {
+					Thread.sleep(1000);
+				} catch (InterruptedException e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
+				}
+			}
 			try {
 				(new WebDriverWait(driver, timeout)).until(new ExpectedCondition<Boolean>() {
 					public Boolean apply(WebDriver d) {
@@ -198,27 +206,54 @@ public class WebDriverObj {
 			String content = driver.getPageSource().replaceAll("&lt;", "<").replaceAll("&gt;", ">")
 					.replaceAll("&amp;", "&").replaceAll("&quot;", "\"");
 
-			System.out.println(content);
+			// System.out.println(content);
 			// 匹配产品URL
 			urlList.addAll(this.resultOfRegex(content, ProcessIn.storeConfigAttr.getProductUrlReg()));
 
 			// 下一页跳转
+			try{
 			WebElement nextPage = driver
 					.findElement(By.cssSelector(ProcessIn.storeConfigAttr.getNextPageCssSelector()));
 			nextPage.click();
-			String curUrl = driver.getCurrentUrl();
-			// System.out.println(curUrl);
-			// System.out.println(tmpUrl);
-			if (tmpUrl.equals(curUrl)) {
+			}
+			catch(Exception e){
+				System.out.println("下一页无法点击");
 				break;
 			}
+			// 切换下一页时暂停1秒
+			logger.debug("点击下一页");
+			System.out.println("点击下一页：" + System.currentTimeMillis());
+			try {
+				Thread.sleep(3000);
+			} catch (InterruptedException e1) {
+				// TODO Auto-generated catch block
+				e1.printStackTrace();
+			}
+			logger.debug("已切换下一页");
+			System.out.println("已切换下一页：" + System.currentTimeMillis());
+			String curUrl = driver.getCurrentUrl();
+			System.out.println(curUrl);
+			System.out.println(tmpUrl);
+			
 			/*
-			 * if (ProcessIn.storeConfigAttr.getIsSameUrl().equals("0")) { if
-			 * (tmpUrl.equals(curUrl)) { break; } } else{ if
-			 * (tmpUrl.equals(curUrl)) { int curContentHash=content.hashCode();
-			 * if(lastContentHash==curContentHash){ break; } else{
-			 * lastContentHash=curContentHash; } } }
-			 */
+			if (tmpUrl.equals(curUrl)) {
+				break;
+			}*/
+
+			if (ProcessIn.storeConfigAttr.getIsSameUrl().equals("0")) {
+				if (tmpUrl.equals(curUrl)) {
+					break;
+				}
+			} else {
+				if (tmpUrl.equals(curUrl)) {
+					int curContentHash = content.hashCode();
+					if (lastContentHash == curContentHash) {
+						break;
+					} else {
+						lastContentHash = curContentHash;
+					}
+				}
+			}
 
 		}
 
